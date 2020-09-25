@@ -9,7 +9,10 @@ public class Main {
         //ex3(10110);
         //System.out.print(1/10);
         //ex4(25);
-        ex8(2);
+        //ex8(2);
+        //ex9(20);
+        //System.out.printf("%d", inverte(25));
+        ex10(121);
     }
 
     public static void ex2(int n) {
@@ -76,12 +79,12 @@ public class Main {
         int num_aux = 0;
         int i_aux = 0;
         System.out.printf("n = %d\n", n);
-        for (int i = n; i < n*1000 ; i++) { //
+        for (int i = n; i < n * 1000; i++) { //
             num = i * i;
             check = 0;
 
             for (int k = 1; k <= n; k++) {
-                if(init_run){
+                if (init_run) {
                     num_aux = num;
                     i_aux = i;
                     init_run = false;
@@ -98,6 +101,48 @@ public class Main {
             }
             init_run = true;
         }
+    }
+
+    public static void ex9(int n) {
+        System.out.printf("Primos até %d: \n", n);
+        for (int i = 1; i <= n; i++) {
+            if (ePrimo(i) == 1) {
+                System.out.printf("%d ", i);
+            }
+        }
+    }
+
+    public static int ePrimo(int num) {
+        int idk = 1;
+        for (int i = 2; i <= num / 2; i++) {
+            if (num % i == 0) {
+                idk = 0;
+                break;
+            }
+        }
+        return idk;
+    }
+
+    public static void ex10(int n) {
+        if (inverte(n) == n) System.out.print("O numero e Capicua");
+        else System.out.print("O numero nao e Capicua");
+    }
+
+    public static int inverte(int n) {
+        boolean init_run = true;
+        int num = 0;
+        while ((n % 10) != 0) {
+            if (init_run) {
+                num = n % 10;
+                n = n / 10;
+                init_run = false;
+            } else {
+                num = num * 10;
+                num += (n % 10);
+                n = n / 10;
+            }
+        }
+        return num;
     }
 
 
