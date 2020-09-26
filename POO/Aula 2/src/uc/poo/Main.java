@@ -1,5 +1,7 @@
 package uc.poo;
 
+import java.lang.Math;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -12,7 +14,10 @@ public class Main {
         //ex8(2);
         //ex9(20);
         //System.out.printf("%d", inverte(25));
-        ex10(121);
+        //ex10(121);
+        //ex11(5, 9);
+        //ex12();
+        ex13(55);
     }
 
     public static void ex2(int n) {
@@ -143,6 +148,67 @@ public class Main {
             }
         }
         return num;
+    }
+
+    public static void ex11(int a, int b) {
+        for (int i = a; i <= b; i++) {
+            for (int j = i + 1; j <= b; j++) {
+                System.out.printf("mmc(%d, %d) = %d\n", i, j, mmc(i, j));
+            }
+        }
+    }
+
+    public static int mmc(int x, int y) {
+        //from: https://www.baeldung.com/java-least-common-multiple
+        if (x == 0 || y == 0) return 0;
+
+        x = Math.abs(x);
+        y = Math.abs(y);
+
+        int max = Math.max(x, y);
+        int min = Math.min(x, y);
+
+        int mmc = max;
+        while (mmc % min != 0) {
+            mmc += max;
+        }
+        return mmc;
+    }
+
+    public static void ex12() {
+        for (int i = 100; i <= 1000; i += 100) {
+            System.out.printf("log(%d) = %d\n", i, log_bin(i));
+        }
+    }
+
+    public static int log_bin(int n) {
+        int result = 0;
+        while (n / 2 > 2) {
+            n = n / 2;
+            result++;
+        }
+        return result;
+    }
+
+    public static void ex13(int n) {
+        System.out.printf("%d esta contido em:\n", n);
+        for (int i = 0; i <= 1000; i++) {
+            if (num_contido(n, i) == 1)
+                System.out.printf("%d\n", i);
+        }
+    }
+
+    public static int num_contido(int x, int n) {
+        if (x < 0 || x > n || x > 100) return 0;
+        int aux = 0;
+        while (n % 10 != 0) {
+            if (n % 10 == x % 10 && n % 100 == x % 100) {
+                aux = 1;
+                break;
+            }
+            n = n / 10;
+        }
+        return aux;
     }
 
 
