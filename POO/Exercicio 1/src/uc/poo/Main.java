@@ -1,9 +1,17 @@
 package uc.poo;
 
-public class Main {
+import java.util.Scanner;
 
+public class Main {
     public static void main(String[] args) {
-        triangulo(12);
+        int num;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of rows(1-12): ");
+        num = sc.nextInt();
+        if (num < 1 || num > 12){
+            System.err.print("Erro: 1 < n < 12");
+        } else
+            triangulo(num);
     }
 
 
@@ -16,29 +24,23 @@ public class Main {
         return sum;
     }
 
+
     //Draws the triangle
-    public static int triangulo(int n) {
+    public static void triangulo(int n) {
         for (int i = 0; i < n; i++) {
+            //System.out.printf("%2d: ", i);
             System.out.print(" ".repeat(n - i - 1));
             for (int j = 0; j <= i; j++) {
-                System.out.print((char)(('A' - 1 + combination(i, j) % 24)) + " ");
+                System.out.print((char) ('A' - 1 + (combination(i, j) % 25)) + " ");
             }
             System.out.print("\n");
         }
-        return 0;
     }
 
 
     //returns C(n, k)
-    //returns 0 if arguments were wrong
     public static int combination(int n, int k) {
-        if (k < 0 || n < 0)
-            return 0;
-
-        if (k > n)
-            return 0;
-        else
-            return (factorial(n) / (factorial(k) * factorial(n - k)));
+        return (factorial(n) / (factorial(k) * factorial(n - k)));
     }
 
 
