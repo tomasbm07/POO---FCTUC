@@ -8,9 +8,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of rows(1-12): ");
         num = sc.nextInt();
-        if (num < 1 || num > 12){
-            System.err.print("Erro: 1 < n < 12");
-        } else
+        if (num < 1 || num > 12)
+            System.err.print("Erro: 1 < rows < 12");
+        else
             triangulo(num);
     }
 
@@ -30,9 +30,8 @@ public class Main {
         for (int i = 0; i < n; i++) {
             //System.out.printf("%2d: ", i);
             System.out.print(" ".repeat(n - i - 1));
-            for (int j = 0; j <= i; j++) {
-                System.out.print((char) ('A' - 1 + (combination(i, j) % 25)) + " ");
-            }
+            for (int j = 0; j <= i; j++)
+                System.out.print((char) ('A' - 1 + (combination(i, j) % 26)) + " ");
             System.out.print("\n");
         }
     }
