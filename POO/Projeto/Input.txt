@@ -1,0 +1,137 @@
+#EFETIVOS
+Efetivo,Alberto Cardoso,ac@dei.uc.pt,AC,D3.3,239392308
+Efetivo,António Dourado,ad@dei.uc.pt,AC,D7.7,237471941
+Efetivo,Bernardete Ribeiro,br@dei.uc.pt,AC,D3.8,232786442
+Efetivo,Carlos M. Fonseca,cmf@dei.uc.pt,AC,D7.6,232005158
+Efetivo,Carlos Pereira,cp@dei.uc.pt,AC,D3.9,239335014
+Efetivo,Catarina Silva,cs@dei.uc.pt,AC,D6.1,238293750
+Efetivo,César Teixeira,ct@dei.uc.pt,AC,D5.3,231487754
+Efetivo,Joana Costa,jc@dei.uc.pt,AC,D10.8,232567287
+Efetivo,Joel P. Arrais,jpa@dei.uc.pt,AC,D1.3,230389068
+Efetivo,Luis Paquete,lp@dei.uc.pt,AC,D1.2,237085264
+Efetivo,Maria da Graça Cristo dos Santos Lopes Ruano,mdgcdslr@dei.uc.pt,AC,D9.2,238938691
+Efetivo,Maryam Abbasi,ma@dei.uc.pt,AC,D3.1,232626344
+Efetivo,Noel Lopes,nl@dei.uc.pt,AC,D5.6,237929704
+Efetivo,Paulo José Carrilho de Sousa Gil,pjcdsg@dei.uc.pt,AC,D10.10,230000419
+Efetivo,Paulo de Carvalho,pdc@dei.uc.pt,AC,D1.9,233956046
+Efetivo,Ricardo Couceiro,rc@dei.uc.pt,AC,D4.9,231080821
+Efetivo,Simão Paredes,sp@dei.uc.pt,AC,D2.10,233076553
+Efetivo,Teresa Rocha,tr@dei.uc.pt,AC,D10.1,233503668
+Efetivo,Ana Boavida,ab@dei.uc.pt,CMS,D2.6,239351877
+Efetivo,Ana Cristina da Costa Oliveira Alves,acdcoa@dei.uc.pt,CMS,D6.10,236300371
+Efetivo,Ana Maria Carvalho de Almeida,amcda@dei.uc.pt,CMS,D4.1,239080517
+Efetivo,Anabela Jesus Gomes,ajg@dei.uc.pt,CMS,D6.7,239036933
+Efetivo,Antonio Jose Mendes,ajm@dei.uc.pt,CMS,D4.4,237436608
+Efetivo,Artur Rebelo,ar@dei.uc.pt,CMS,D6.4,231667474
+Efetivo,Carlos Bento,cb@dei.uc.pt,CMS,D1.5,230259612
+Efetivo,F. Amilcar Cardoso,fac@dei.uc.pt,CMS,D10.5,234399923
+Efetivo,Hugo Gonçalo Oliveira,hgo@dei.uc.pt,CMS,D1.10,231263317
+Efetivo,João Bicker,jb@dei.uc.pt,CMS,D7.10,238284169
+Efetivo,Luis Macedo,lm@dei.uc.pt,CMS,D7.8,239745471
+Efetivo,Marco Veloso,mv@dei.uc.pt,CMS,D8.6,231440278
+Efetivo,Maria José Patricio Marcelino,mjpm@dei.uc.pt,CMS,D6.6,230321911
+Efetivo,Matthew Davies,md@dei.uc.pt,CMS,D5.4,230581976
+Efetivo,Pedro Manuel Henriques da Cunha Abreu,pmhdca@dei.uc.pt,CMS,D8.10,239819382
+Efetivo,Pedro Martins,pm@dei.uc.pt,CMS,D7.2,230716620
+Efetivo,Pedro Quaresma,pq@dei.uc.pt,CMS,D4.2,232334678
+Efetivo,Ricardo Malheiro,rm@dei.uc.pt,CMS,D3.2,231236442
+Efetivo,Ricardo Rodrigues,rr@dei.uc.pt,CMS,D1.4,239997901
+Efetivo,Rui Pedro Paiva,rpp@dei.uc.pt,CMS,D3.5,236665698
+Efetivo,Teresa Mendes,tm@dei.uc.pt,CMS,D2.5,237265253
+Efetivo,Vanda Alexandre Marques dos Santos,vamds@dei.uc.pt,CMS,D9.7,233026147
+Efetivo,André Rodrigues,ar2@dei.uc.pt,LCT,D7.3,238231237
+Efetivo,Bruno Sousa,bs@dei.uc.pt,LCT,D5.8,235431561
+Efetivo,Edmundo Monteiro,em@dei.uc.pt,LCT,D3.4,238526927
+Efetivo,Fernando Boavida,fb@dei.uc.pt,LCT,D5.2,234401725
+Efetivo,João P. Vilela,jpv@dei.uc.pt,LCT,D5.5,238727190
+Efetivo,Jorge Granjal,jg@dei.uc.pt,LCT,D7.4,232018008
+Efetivo,Jorge Sá Silva,jss@dei.uc.pt,LCT,D3.7,237005015
+Efetivo,Marilia Curado,mc@dei.uc.pt,LCT,D10.9,233615744
+Efetivo,Tiago Cruz,tc@dei.uc.pt,LCT,D2.2,239916918
+Efetivo,Vasco Pereira,vp@dei.uc.pt,LCT,D10.7,234857944
+Efetivo,Ernesto Costa,ec@dei.uc.pt,ECOS,D8.3,237491996
+Efetivo,Francisco Baptista Pereira,fbp@dei.uc.pt,ECOS,D2.8,232147180
+Efetivo,João Correia,jc0@dei.uc.pt,ECOS,D2.3,233777300
+Efetivo,Leonor Isabel de Albuquerque Melo,lidam@dei.uc.pt,ECOS,D8.9,232207832
+Efetivo,Bruno Cabral,bc@dei.uc.pt,SSE,D5.7,238040440
+Efetivo,Fernando Barros,fb1@dei.uc.pt,SSE,D4.6,232478292
+Efetivo,Filipe Araujo,fa@dei.uc.pt,SSE,D6.2,234643920
+Efetivo,João Carlos Cunha,jcc@dei.uc.pt,SSE,D8.1,232539285
+Efetivo,Joao Duraes,jd@dei.uc.pt,SSE,D8.5,233683504
+Efetivo,João Paulo de Sousa Ferreira Fernandes,jpdsff@dei.uc.pt,SSE,D9.3,237205358
+Efetivo,Jorge Bernardino,jb4@dei.uc.pt,SSE,D9.9,237117337
+Efetivo,José Carlos Coelho Martins da Fonseca,jccmdf@dei.uc.pt,SSE,D6.8,239638370
+Efetivo,Marco Vieira,mv7@dei.uc.pt,SSE,D5.10,236709903
+Efetivo,Mário Alberto Zenha-Rela,maz@dei.uc.pt,SSE,D6.3,231187558
+Efetivo,Naghmeh Ramezani Ivaki,nri@dei.uc.pt,SSE,D10.2,230317739
+Efetivo,Nuno Antunes,na@dei.uc.pt,SSE,D9.1,237776403
+Efetivo,Nuno Laranjeiro,nl5@dei.uc.pt,SSE,D8.7,230511830
+Efetivo,Pedro Furtado,pf@dei.uc.pt,SSE,D10.6,231123067
+Efetivo,Raul Barbosa,rb@dei.uc.pt,SSE,D1.7,230370963
+Efetivo,Antonio Dias de Figueiredo,addf@dei.uc.pt,IS,D9.5,230747722
+Efetivo,Catarina Ferreira da Silva,cfds@dei.uc.pt,IS,D2.7,234720838
+Efetivo,João Barata,jb41@dei.uc.pt,IS,D9.4,232471507
+Efetivo,Jorge C. S. Cardoso,jcsc@dei.uc.pt,IS,D4.5,234802343
+Efetivo,Paula Alexandra Silva,pas@dei.uc.pt,IS,D3.10,232914145
+Efetivo,Paulo Rupino da Cunha,prdc@dei.uc.pt,IS,D4.8,233515856
+Efetivo,Rui Craveirinha,rc7@dei.uc.pt,IS,D10.4,238560338
+#ESTUDANTES
+Estudante,Adriana Leal,al@gmail.com,AC,Um Titulo Aleatorio,2023,António Dourado
+Estudante,Alexandra Maria Galvão Ribeiro,amgr@gmail.com,AC,Um Titulo Aleatorio,2024,Alberto Cardoso
+Estudante,Alexandre D. Jesus,adj@gmail.com,AC,Um Titulo Aleatorio,2022,António Dourado
+Estudante,Ali AghaeiRad,aa@gmail.com,AC,Um Titulo Aleatorio,2023,Carlos Pereira
+Estudante,António Manuel Correia Martinho Lopes,amcml@gmail.com,AC,Um Titulo Aleatorio,2024,Bernardete Ribeiro
+Estudante,Arnaud Liefooghe,al3@gmail.com,AC,Um Titulo Aleatorio,2022,Maria da Graça Cristo dos Santos Lopes Ruano
+Estudante,Daniel Tavares Ribeiro,dtr@gmail.com,AC,Um Titulo Aleatorio,2024,Teresa Rocha
+Estudante,Diogo Nunes,dn@gmail.com,AC,Um Titulo Aleatorio,2022,Ricardo Couceiro
+Estudante,Diogo Pessoa,dp@gmail.com,AC,Um Titulo Aleatorio,2026,Paulo José Carrilho de Sousa Gil
+Estudante,Fábio Januário,fj@gmail.com,AC,Um Titulo Aleatorio,2021,Carlos M. Fonseca
+Estudante,Fábio Lopes,fl@gmail.com,AC,Um Titulo Aleatorio,2023,Joel P. Arrais
+Estudante,Ana Rodrigues,ar1@gmail.com,CMS,Um Titulo Aleatorio,2024,Maria José Patricio Marcelino
+Estudante,Ângela Coelho,�c@gmail.com,CMS,Um Titulo Aleatorio,2025,Luis Macedo
+Estudante,António Cruz,ac9@gmail.com,CMS,Um Titulo Aleatorio,2021,Pedro Martins
+Estudante,António Pedro de Albuquerque Leitão,apdal@gmail.com,CMS,Um Titulo Aleatorio,2022,Ana Cristina da Costa Oliveira Alves
+Estudante,André Figueira Riker,afr@gmail.com,LCT,Um Titulo Aleatorio,2022,João P. Vilela
+Estudante,David Abreu,da@gmail.com,LCT,Um Titulo Aleatorio,2022,Jorge Granjal
+Estudante,David Henrique de Souza Lima,dhdsl@gmail.com,LCT,Um Titulo Aleatorio,2026,Bruno Sousa
+Estudante,Duarte Raposo,dr@gmail.com,LCT,Um Titulo Aleatorio,2022,Vasco Pereira
+Estudante,Elisabete Reis,er@gmail.com,LCT,Um Titulo Aleatorio,2022,João P. Vilela
+Estudante,Hugo Bastos Pereira Damião Dias,hbpdd@gmail.com,LCT,Um Titulo Aleatorio,2024,Tiago Cruz
+Estudante,Hugo Menino Aguiar,hma@gmail.com,LCT,Um Titulo Aleatorio,2026,João P. Vilela
+Estudante,João André Gomes de Sá e Sousa,jagdses@gmail.com,LCT,Um Titulo Aleatorio,2025,Jorge Sá Silva
+Estudante,João Henriques,jh@gmail.com,LCT,Um Titulo Aleatorio,2026,Vasco Pereira
+Estudante,João T. Fernandes,jtf@gmail.com,LCT,Um Titulo Aleatorio,2025,Bruno Sousa
+Estudante,Jorge Diogo Gomes Proença,jdgp@gmail.com,LCT,Um Titulo Aleatorio,2023,Bruno Sousa
+Estudante,Jorge Eduardo Rivadeneira,jer@gmail.com,LCT,Um Titulo Aleatorio,2021,Jorge Sá Silva
+Estudante,José Marcelo Fernandes,jmf@gmail.com,LCT,Um Titulo Aleatorio,2023,Jorge Sá Silva
+Estudante,Karima Velasquez,kv@gmail.com,LCT,Um Titulo Aleatorio,2022,Jorge Sá Silva
+Estudante,Luis Eduardo Faria dos Santos,lefds@gmail.com,LCT,Um Titulo Aleatorio,2021,Marilia Curado
+Estudante,Luis Rosa,lr@gmail.com,LCT,Um Titulo Aleatorio,2023,Marilia Curado
+Estudante,Mariana Cunha,mc6@gmail.com,LCT,Um Titulo Aleatorio,2023,Edmundo Monteiro
+Estudante,Ngombo Armando,na5@gmail.com,LCT,Um Titulo Aleatorio,2023,Bruno Sousa
+Estudante,Guilherme Silva,gs@gmail.com,ECOS,Um Titulo Aleatorio,2025,Leonor Isabel de Albuquerque Melo
+Estudante,Jessica Cunha,jc7@gmail.com,ECOS,Um Titulo Aleatorio,2024,Ernesto Costa
+Estudante,João Miguel Brás Simões,jmbs@gmail.com,ECOS,Um Titulo Aleatorio,2024,Ernesto Costa
+Estudante,João Pedro Gonçalves Teixeira de Macedo,jpgtdm@gmail.com,ECOS,Um Titulo Aleatorio,2024,Ernesto Costa
+Estudante,Leonardo Vieira,lv@gmail.com,ECOS,Um Titulo Aleatorio,2022,Leonor Isabel de Albuquerque Melo
+Estudante,Mariana Monteiro,mm@gmail.com,ECOS,Um Titulo Aleatorio,2022,Francisco Baptista Pereira
+Estudante,Ana Filipa Nogueira,afn@gmail.com,SSE,Um Titulo Aleatorio,2025,João Carlos Cunha
+Estudante,Charles Ferreira Gonçalves,cfg@gmail.com,SSE,Um Titulo Aleatorio,2026,Mário Alberto Zenha-Rela
+Estudante,Cristiano Inácio Lemes,cil@gmail.com,SSE,Um Titulo Aleatorio,2021,Nuno Laranjeiro
+Estudante,Daniel Filipe da Cunha Martins Mendes,dfdcmm@gmail.com,SSE,Um Titulo Aleatorio,2026,Marco Vieira
+Estudante,Diogo Carvalho,dc@gmail.com,SSE,Um Titulo Aleatorio,2026,José Carlos Coelho Martins da Fonseca
+Estudante,Gonçalo Carvalho,gc@gmail.com,SSE,Um Titulo Aleatorio,2026,João Paulo de Sousa Ferreira Fernandes
+Estudante,Inês Filipa Rente Valentim,ifrv@gmail.com,SSE,Um Titulo Aleatorio,2023,Nuno Antunes
+Estudante,Jaime Correia,jc1@gmail.com,SSE,Um Titulo Aleatorio,2025,Nuno Antunes
+Estudante,João Agnelo,ja@gmail.com,SSE,Um Titulo Aleatorio,2024,José Carlos Coelho Martins da Fonseca
+Estudante,João Ricardo Lourenço,jrl@gmail.com,SSE,Um Titulo Aleatorio,2026,Nuno Antunes
+Estudante,Adriano Del Pino Lino,adpl@gmail.com,IS,Um Titulo Aleatorio,2021,Catarina Ferreira da Silva
+Estudante,Alexandre Fernandes,af@gmail.com,IS,Um Titulo Aleatorio,2022,Jorge C. S. Cardoso
+Estudante,Amanda Sizo,as@gmail.com,IS,Um Titulo Aleatorio,2024,Jorge C. S. Cardoso
+Estudante,Ana Sofia Pais de Sousa Almeida,aspdsa@gmail.com,IS,Um Titulo Aleatorio,2026,Antonio Dias de Figueiredo
+Estudante,Dina Soeiro,ds@gmail.com,IS,Um Titulo Aleatorio,2021,Jorge C. S. Cardoso
+Estudante,José Campos,jc08@gmail.com,IS,Um Titulo Aleatorio,2026,Paula Alexandra Silva
+Estudante,Luís Lucas Pereira,llp@gmail.com,IS,Um Titulo Aleatorio,2025,Paula Alexandra Silva
+Estudante,Nuno Castelhano,nc@gmail.com,IS,Um Titulo Aleatorio,2022,Catarina Ferreira da Silva
+Estudante,Nuno Vicente Barreto,nvb@gmail.com,IS,Um Titulo Aleatorio,2024,Paula Alexandra Silva
+Estudante,Stanley Lima,sl@gmail.com,IS,Um Titulo Aleatorio,2021,Paulo Rupino da Cunha

@@ -1,0 +1,135 @@
+Efetivo,Alberto Cardoso,AC
+Efetivo,António Dourado,AC
+Efetivo,Bernardete Ribeiro,AC
+Efetivo,Carlos M. Fonseca,AC
+Efetivo,Carlos Pereira,AC
+Efetivo,Catarina Silva,AC
+Efetivo,César Teixeira,AC
+Efetivo,Joana Costa,AC
+Efetivo,Joel P. Arrais,AC
+Efetivo,Luis Paquete,AC
+Efetivo,Maria da Graça Cristo dos Santos Lopes Ruano,AC
+Efetivo,Maryam Abbasi,AC
+Efetivo,Noel Lopes,AC
+Efetivo,Paulo José Carrilho de Sousa Gil,AC
+Efetivo,Paulo de Carvalho,AC
+Efetivo,Ricardo Couceiro,AC
+Efetivo,Simão Paredes,AC
+Efetivo,Teresa Rocha,AC
+Estudante,Adriana Leal,AC,Um Titulo Aleatorio
+Estudante,Alexandra Maria Galvão Ribeiro,AC,Um Titulo Aleatorio
+Estudante,Alexandre D. Jesus,AC,Um Titulo Aleatorio
+Estudante,Ali AghaeiRad,AC,Um Titulo Aleatorio
+Estudante,António Manuel Correia Martinho Lopes,AC,Um Titulo Aleatorio
+Estudante,Arnaud Liefooghe,AC,Um Titulo Aleatorio
+Estudante,Daniel Tavares Ribeiro,AC,Um Titulo Aleatorio
+Estudante,Diogo Nunes,AC,Um Titulo Aleatorio
+Estudante,Diogo Pessoa,AC,Um Titulo Aleatorio
+Estudante,Fábio Januário,AC,Um Titulo Aleatorio
+Estudante,Fábio Lopes,AC,Um Titulo Aleatorio
+Efetivo,Ana Boavida,CMS
+Efetivo,Ana Cristina da Costa Oliveira Alves,CMS
+Efetivo,Ana Maria Carvalho de Almeida,CMS
+Efetivo,Anabela Jesus Gomes,CMS
+Efetivo,Antonio Jose Mendes,CMS
+Efetivo,Artur Rebelo,CMS
+Efetivo,Carlos Bento,CMS
+Efetivo,F. Amilcar Cardoso,CMS
+Efetivo,Hugo Gonçalo Oliveira,CMS
+Efetivo,João Bicker,CMS
+Efetivo,Luis Macedo,CMS
+Efetivo,Marco Veloso,CMS
+Efetivo,Maria José Patricio Marcelino,CMS
+Efetivo,Matthew Davies,CMS
+Efetivo,Pedro Manuel Henriques da Cunha Abreu,CMS
+Efetivo,Pedro Martins,CMS
+Efetivo,Pedro Quaresma,CMS
+Efetivo,Ricardo Malheiro,CMS
+Efetivo,Ricardo Rodrigues,CMS
+Efetivo,Rui Pedro Paiva,CMS
+Efetivo,Teresa Mendes,CMS
+Efetivo,Vanda Alexandre Marques dos Santos,CMS
+Estudante,Ana Rodrigues,CMS,Um Titulo Aleatorio
+Estudante,Ângela Coelho,CMS,Um Titulo Aleatorio
+Estudante,António Cruz,CMS,Um Titulo Aleatorio
+Estudante,António Pedro de Albuquerque Leitão,CMS,Um Titulo Aleatorio
+Efetivo,André Rodrigues,LCT
+Efetivo,Bruno Sousa,LCT
+Efetivo,Edmundo Monteiro,LCT
+Efetivo,Fernando Boavida,LCT
+Efetivo,João P. Vilela,LCT
+Efetivo,Jorge Granjal,LCT
+Efetivo,Jorge Sá Silva,LCT
+Efetivo,Marilia Curado,LCT
+Efetivo,Tiago Cruz,LCT
+Efetivo,Vasco Pereira,LCT
+Estudante,André Figueira Riker,LCT,Um Titulo Aleatorio
+Estudante,David Abreu,LCT,Um Titulo Aleatorio
+Estudante,David Henrique de Souza Lima,LCT,Um Titulo Aleatorio
+Estudante,Duarte Raposo,LCT,Um Titulo Aleatorio
+Estudante,Elisabete Reis,LCT,Um Titulo Aleatorio
+Estudante,Hugo Bastos Pereira Damião Dias,LCT,Um Titulo Aleatorio
+Estudante,Hugo Menino Aguiar,LCT,Um Titulo Aleatorio
+Estudante,João André Gomes de Sá e Sousa,LCT,Um Titulo Aleatorio
+Estudante,João Henriques,LCT,Um Titulo Aleatorio
+Estudante,João T. Fernandes,LCT,Um Titulo Aleatorio
+Estudante,Jorge Diogo Gomes Proença,LCT,Um Titulo Aleatorio
+Estudante,Jorge Eduardo Rivadeneira,LCT,Um Titulo Aleatorio
+Estudante,José Marcelo Fernandes,LCT,Um Titulo Aleatorio
+Estudante,Karima Velasquez,LCT,Um Titulo Aleatorio
+Estudante,Luis Eduardo Faria dos Santos,LCT,Um Titulo Aleatorio
+Estudante,Luis Rosa,LCT,Um Titulo Aleatorio
+Estudante,Mariana Cunha,LCT,Um Titulo Aleatorio
+Estudante,Ngombo Armando,LCT,Um Titulo Aleatorio
+Efetivo,Ernesto Costa,ECOS
+Efetivo,Francisco Baptista Pereira,ECOS
+Efetivo,João Correia,ECOS
+Efetivo,Leonor Isabel de Albuquerque Melo,ECOS
+Estudante,Guilherme Silva,ECOS,Um Titulo Aleatorio
+Estudante,Jessica Cunha,ECOS,Um Titulo Aleatorio
+Estudante,João Miguel Brás Simões,ECOS,Um Titulo Aleatorio
+Estudante,João Pedro Gonçalves Teixeira de Macedo,ECOS,Um Titulo Aleatorio
+Estudante,Leonardo Vieira,ECOS,Um Titulo Aleatorio
+Estudante,Mariana Monteiro,ECOS,Um Titulo Aleatorio
+Efetivo,Bruno Cabral,SSE
+Efetivo,Fernando Barros,SSE
+Efetivo,Filipe Araujo,SSE
+Efetivo,João Carlos Cunha,SSE
+Efetivo,Joao Duraes,SSE
+Efetivo,João Paulo de Sousa Ferreira Fernandes,SSE
+Efetivo,Jorge Bernardino,SSE
+Efetivo,José Carlos Coelho Martins da Fonseca,SSE
+Efetivo,Marco Vieira,SSE
+Efetivo,Mário Alberto Zenha-Rela,SSE
+Efetivo,Naghmeh Ramezani Ivaki,SSE
+Efetivo,Nuno Antunes,SSE
+Efetivo,Nuno Laranjeiro,SSE
+Efetivo,Pedro Furtado,SSE
+Efetivo,Raul Barbosa,SSE
+Estudante,Ana Filipa Nogueira,SSE,Um Titulo Aleatorio
+Estudante,Charles Ferreira Gonçalves,SSE,Um Titulo Aleatorio
+Estudante,Cristiano Inácio Lemes,SSE,Um Titulo Aleatorio
+Estudante,Daniel Filipe da Cunha Martins Mendes,SSE,Um Titulo Aleatorio
+Estudante,Diogo Carvalho,SSE,Um Titulo Aleatorio
+Estudante,Gonçalo Carvalho,SSE,Um Titulo Aleatorio
+Estudante,Inês Filipa Rente Valentim,SSE,Um Titulo Aleatorio
+Estudante,Jaime Correia,SSE,Um Titulo Aleatorio
+Estudante,João Agnelo,SSE,Um Titulo Aleatorio
+Estudante,João Ricardo Lourenço,SSE,Um Titulo Aleatorio
+Efetivo,Antonio Dias de Figueiredo,IS
+Efetivo,Catarina Ferreira da Silva,IS
+Efetivo,João Barata,IS
+Efetivo,Jorge C. S. Cardoso,IS
+Efetivo,Paula Alexandra Silva,IS
+Efetivo,Paulo Rupino da Cunha,IS
+Efetivo,Rui Craveirinha,IS
+Estudante,Adriano Del Pino Lino,IS,Um Titulo Aleatorio
+Estudante,Alexandre Fernandes,IS,Um Titulo Aleatorio
+Estudante,Amanda Sizo,IS,Um Titulo Aleatorio
+Estudante,Ana Sofia Pais de Sousa Almeida,IS,Um Titulo Aleatorio
+Estudante,Dina Soeiro,IS,Um Titulo Aleatorio
+Estudante,José Campos,IS,Um Titulo Aleatorio
+Estudante,Luís Lucas Pereira,IS,Um Titulo Aleatorio
+Estudante,Nuno Castelhano,IS,Um Titulo Aleatorio
+Estudante,Nuno Vicente Barreto,IS,Um Titulo Aleatorio
+Estudante,Stanley Lima,IS,Um Titulo Aleatorio

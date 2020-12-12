@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>uc.poo</OriginalElement>
+  <nodes>
+    <node x="271.0" y="1229.0">uc.poo.Estudante</node>
+    <node x="718.0" y="678.0">uc.poo.capituloLivro</node>
+    <node x="338.0" y="471.0">uc.poo.Livro</node>
+    <node x="1850.0" y="1361.0">uc.poo.ECOS</node>
+    <node x="0.0" y="1485.0">uc.poo.Equipa</node>
+    <node x="1614.0" y="1361.0">uc.poo.AC</node>
+    <node x="0.0" y="890.0">uc.poo.Investigador</node>
+    <node x="639.0" y="1229.0">uc.poo.Efetivo</node>
+    <node x="1260.0" y="1361.0">uc.poo.LCT</node>
+    <node x="1504.0" y="1361.0">uc.poo.IS</node>
+    <node x="1730.0" y="1361.0">uc.poo.SSE</node>
+    <node x="1657.0" y="471.0">uc.poo.artigoConferencia</node>
+    <node x="1380.0" y="1361.0">uc.poo.CMS</node>
+    <node x="1214.0" y="471.0">uc.poo.artigoRevista</node>
+    <node x="960.0" y="890.0">uc.poo.Grupo</node>
+    <node x="0.0" y="0.0">uc.poo.Publicacao</node>
+    <node x="313.0" y="1485.0">uc.poo.fileHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="uc.poo.AC" target="uc.poo.Grupo">
+      <point x="0.0" y="0.0" />
+      <point x="1652.0" y="1105.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="uc.poo.SSE" target="uc.poo.Grupo">
+      <point x="0.0" y="0.0" />
+      <point x="1770.0" y="1105.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="uc.poo.capituloLivro" target="uc.poo.Livro">
+      <point x="0.0" y="0.0" />
+      <point x="946.0" y="554.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="uc.poo.IS" target="uc.poo.Grupo">
+      <point x="0.0" y="0.0" />
+      <point x="1539.0" y="1105.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="uc.poo.Livro" target="uc.poo.Publicacao">
+      <point x="0.0" y="0.0" />
+      <point x="508.0" y="215.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="uc.poo.Estudante" target="uc.poo.Investigador">
+      <point x="0.0" y="0.0" />
+      <point x="435.0" y="1039.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="uc.poo.artigoRevista" target="uc.poo.Publicacao">
+      <point x="0.0" y="0.0" />
+      <point x="1415.5" y="215.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="uc.poo.LCT" target="uc.poo.Grupo">
+      <point x="0.0" y="0.0" />
+      <point x="1300.0" y="1105.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="uc.poo.Efetivo" target="uc.poo.Investigador">
+      <point x="0.0" y="0.0" />
+      <point x="777.0" y="1039.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="uc.poo.ECOS" target="uc.poo.Grupo">
+      <point x="0.0" y="0.0" />
+      <point x="1894.5" y="1105.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="uc.poo.CMS" target="uc.poo.Grupo">
+      <point x="0.0" y="0.0" />
+      <point x="1422.0" y="1105.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="uc.poo.artigoConferencia" target="uc.poo.Publicacao">
+      <point x="0.0" y="0.0" />
+      <point x="1880.0" y="215.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Tree" zoom="0.5035409035409035" x="1044.963983383493" y="631.7184089738529" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
