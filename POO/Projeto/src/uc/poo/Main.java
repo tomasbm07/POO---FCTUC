@@ -1,11 +1,8 @@
 package uc.poo;
 
-import java.awt.*;
 import java.util.Scanner;
 
-/**
- *
- */
+
 public class Main {
 
     /**
@@ -13,17 +10,11 @@ public class Main {
      */
     public static void main(String[] args) {
         Equipa CISUC = new Equipa();
-        fileHandler.addMembersFromObjFile("Input.txt", CISUC);
-        fileHandler.addPubToObjFile("Publications.txt");
-        fileHandler.addPubFromObjFile(CISUC);
+        //fileHandler.addMembersFromObjFile("Input.txt", CISUC);
+        //fileHandler.addPubToObjFile("Publications.txt");
+        //fileHandler.addPubFromObjFile(CISUC);
+        fileHandler.readFiles(CISUC);
         menu(CISUC);
-        //CISUC.AC().showMembers();
-        //CISUC.ECOS().showMembers();
-        //CISUC.IS().showMembers();
-        //CISUC.showMembers();
-        //CISUC.showStats();
-        //CISUC.getNumPubs(5);
-        //CISUC.showPubStats();
 
     }//main
 
@@ -34,8 +25,8 @@ public class Main {
         System.out.println("""
                 |-----------------------------|
                 |         Projeto POO:        |
-                | Gestor de Publicaçoes CISUC |
-                |         Tomás Mendes        |
+                | Gestor de PublicaÃ§oes CISUC |
+                |         TomÃ¡s Mendes        |
                 |-----------------------------|
                 """);
         int choice = 1;
@@ -43,13 +34,13 @@ public class Main {
             showOptions();
             choice = sc.nextInt();
             switch (choice) {
-                case 0 -> System.out.println("Fechando Aplicação");
+                case 0 -> System.out.println("Fechando AplicaÃ§ao");
                 case 1 -> parte1(equipa);
                 case 2 -> parte2(equipa);
                 case 3 -> parte3(equipa);
                 case 4 -> parte4(equipa);
                 case 5 -> parte5(equipa);
-                default -> System.out.println("Erro: Valor Inválido");
+                default -> System.out.println("Erro: Valor Invalido");
             }
         }
     }

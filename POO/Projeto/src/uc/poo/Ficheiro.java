@@ -1,6 +1,5 @@
 package uc.poo;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -10,57 +9,103 @@ import java.util.ArrayList;
  */
 class fileHandler {
 
-    /**
-     * idk
-     *
-     * @param filename name of the file .txt
-     * @param equipa   equipa onde colocar os membros
-     */
-    //TODO add read protection, make sure, efetivou ou estudante, nome (sem numeros),etc
-    public static void addMembersFromObjFile(String filename, Equipa equipa) {
-        String data;
-        Investigador investigador;
-
+    public static void readFiles(Equipa equipa) {
         try {
-            addMembersToObjFile("Input.txt", equipa);
-            FileInputStream fi = new FileInputStream(new File("MembrosObj.ser"));
-            ObjectInputStream oi = new ObjectInputStream(fi);
-            Investigador i;
+            File objMembros = new File("Membros.obj");
+            File objPublications = new File("Publications.obj");
 
-            while (fi.available() > 0) {
-                i = (Investigador) oi.readObject();
-                switch (i.getGrupo()) {
-                    case "AC" -> equipa.AC().addInvestigador(i);
-                    case "CMS" -> equipa.CMS().addInvestigador(i);
-                    case "ECOS" -> equipa.ECOS().addInvestigador(i);
-                    case "IS" -> equipa.IS().addInvestigador(i);
-                    case "LCT" -> equipa.LCT().addInvestigador(i);
-                    case "SSE" -> equipa.SSE().addInvestigador(i);
-                }
-                //System.out.println(i);
+            boolean filePublicationsExists = !objPublications.createNewFile();
+            boolean fileMembrosExists = !objMembros.createNewFile();// Se o ficheiro ja existe, n faz nada. return true se criou o ficheiro
+            //Se criou o ficheiro, fileDisciplinasExists = false
+
+            if (filePublicationsExists && fileMembrosExists) {// se os ficheiros ja existiam, ler dos ficheiros de objetos
+                System.out.println(">>Dados lidos dos Ficheiros de Objetos<<");
+                readFromObjFiles(equipa);
+                return;
             }
 
-            oi.close();
-            fi.close();
+            // Ler dos ficheiros de texto
+            System.out.println(">>Criando os Ficheiros de Objetos<<");
+            addMembersToObjFile(objMembros, equipa);
+            addPubToObjFile(objPublications);
+            readFromObjFiles(equipa);
+            System.out.println(">>Done<<");
+            System.out.println(">>Dados lidos dos Ficheiros de Objetos<<");
 
-        } catch (Exception e) {
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
+    public static void readFromObjFiles(Equipa equipa) {
+        Investigador i;
+        Publicacao p;
+        ArrayList<String> autores;
+
+        try {
+            FileInputStream fi = new FileInputStream("Membros.obj");
+            ObjectInputStream oi = new ObjectInputStream(fi);
+
+            FileInputStream fa = new FileInputStream("Publications.obj");
+            ObjectInputStream oa = new ObjectInputStream(fa);
+
+            //Ler o membros do ficheiro de objetos
+            while (fi.available() > 0) {
+                while (fi.available() > 0) {
+                    i = (Investigador) oi.readObject();
+                    switch (i.getGrupo()) {
+                        case "AC" -> equipa.AC().addInvestigador(i);
+                        case "CMS" -> equipa.CMS().addInvestigador(i);
+                        case "ECOS" -> equipa.ECOS().addInvestigador(i);
+                        case "IS" -> equipa.IS().addInvestigador(i);
+                        case "LCT" -> equipa.LCT().addInvestigador(i);
+                        case "SSE" -> equipa.SSE().addInvestigador(i);
+                    }
+                    //System.out.println(i);
+                }
+
+            }
+
+            //Ler as publicacaoes do ficheiro de objetos
+            while (fa.available() > 0) {
+                p = (Publicacao) oa.readObject();
+                autores = p.getAutores(); // Autor = Nome#Grupo
+                for (String s : autores) {
+                    String aux[] = s.split("#");
+                    getInvestigador(aux[0], aux[1], equipa).addPub(p); // Add Publicacao aos Investigadores
+                }
+            }
+
+            oi.close();
+            fi.close();
+            oa.close();
+            fa.close();
+        } catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    //TODO add read protection, make sure, efetivou ou estudante, nome (sem numeros),etc
+    /*public static void addMembersFromObjFile(String filename, Equipa equipa) {
+    }*/
+
     //Metodo inicial: text file -> object file (1st run only)
     //TODO add check para ver se ja exite um ficheiro de objetos, se n usar este metodo
-    private static void addMembersToObjFile(String filename, Equipa equipa) {
+    private static void addMembersToObjFile(File filename, Equipa equipa) {
         String data;
         Investigador investigador;
         int linha = 1;
         boolean isEfetivo = true;
 
         try {
-            FileReader f = new FileReader(new File(filename));
+            FileReader f = new FileReader("Input.txt");
             BufferedReader br = new BufferedReader(f);
 
-            FileOutputStream fi = new FileOutputStream(new File("MembrosObj.ser"));
+            FileOutputStream fi = new FileOutputStream(filename);
             ObjectOutputStream oi = new ObjectOutputStream(fi);
 
             while ((data = br.readLine()) != null) {
@@ -68,6 +113,7 @@ class fileHandler {
                     isEfetivo = false;
                     continue;
                 }
+
                 if (data.equals("#EFETIVOS"))
                     continue;
 
@@ -96,7 +142,7 @@ class fileHandler {
         }
     }
 
-    public static void addPubToObjFile(String filename) {
+    public static void addPubToObjFile(File filename) {
         Publicacao pub;
         String line;
 
@@ -104,7 +150,7 @@ class fileHandler {
             FileReader f = new FileReader(new File("Publications.txt"));
             BufferedReader br = new BufferedReader(f);
 
-            FileOutputStream fi = new FileOutputStream(new File("PublicationsObj.ser"));
+            FileOutputStream fi = new FileOutputStream(filename);
             ObjectOutputStream oi = new ObjectOutputStream(fi);
 
             while ((line = br.readLine()) != null) {
@@ -133,30 +179,6 @@ class fileHandler {
             br.close();
             f.close();
         } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static void addPubFromObjFile(Equipa equipa) {
-        try {
-            FileInputStream fi = new FileInputStream(new File("PublicationsObj.ser"));
-            ObjectInputStream oi = new ObjectInputStream(fi);
-            Publicacao p;
-            ArrayList<String> autores;
-
-            while (fi.available() > 0) {
-                p = (Publicacao) oi.readObject();
-                autores = p.getAutores(); // Autore = Nome#Grupo
-                for (String s : autores) {
-                    String aux[] = s.split("#");
-                    getInvestigador(aux[0], aux[1], equipa).addPub(p);
-                }
-            }
-
-            oi.close();
-            fi.close();
-
-        } catch (Exception e) {
             e.printStackTrace();
         }
     }

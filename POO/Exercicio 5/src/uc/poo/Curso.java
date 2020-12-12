@@ -27,7 +27,7 @@ class Curso {
             BufferedReader br = new BufferedReader(f);
 
             File objDisciplinas = new File("Disciplinas.ser");
-            File objAlunos = new File("Disciplinas.ser");
+            File objAlunos = new File("Alunos.ser");
 
             boolean fileAlunosExists = !objAlunos.createNewFile();
             boolean fileDisciplinasExists = !objDisciplinas.createNewFile();// Se o ficheiro ja existe, n faz nada. return true se criou o ficheiro
