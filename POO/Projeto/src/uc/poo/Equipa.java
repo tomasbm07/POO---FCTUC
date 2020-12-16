@@ -275,7 +275,7 @@ class Equipa {
     }
 
     private ArrayList<Publicacao> organizarPubs(ArrayList<Publicacao> pubs) {
-        //pubs.sort(new comparador()); // == Colections.sort(pubs, new comparador());
+        pubs.sort(Comparator.comparing(Publicacao::getAno).thenComparing(Publicacao::getTipo).thenComparing(Publicacao::fatorImpacto));
         return pubs;
     }
 
