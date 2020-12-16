@@ -5,9 +5,6 @@ import java.util.Scanner;
 
 public class Main {
 
-    /**
-     * @param args ...
-     */
     public static void main(String[] args) {
         Equipa CISUC = new Equipa();
         fileHandler.readFiles(CISUC);
