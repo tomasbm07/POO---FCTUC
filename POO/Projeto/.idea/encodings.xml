@@ -2,7 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Input.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/uc/poo/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/uc/poo/Equipa.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/uc/poo/Main.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/uc/poo/Teste.java" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1252" />
   </component>
 </project>
