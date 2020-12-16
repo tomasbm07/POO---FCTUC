@@ -1,90 +1,90 @@
-Fábio Lopes#AC;Paulo José Carrilho de Sousa Gil#AC,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,1998,4889,Uma Editora Que Pague Bem,399200795171-2
-Tiago Cruz#LCT;Tiago Cruz#LCT,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,1997,9413,Revista Maravilha,33,2/2/2019
-João Bicker#CMS;Paulo José Carrilho de Sousa Gil#AC;Luis Macedo#CMS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1987,5714,Uma Editora de Gratis,342385318127-0,Conferencia dos Informaticos,20
-Fábio Januário#AC,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2006,13844,Conferencia Nao Aborrecida,Lugar Magnifico,14/12/1999
-Fábio Lopes#AC,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2004,10595,Editora XPTO,985683341315-5,Capitulo Muito Serio,82-87
-Teresa Mendes#CMS;Charles Ferreira Gonçalves#SSE;Luis Eduardo Faria dos Santos#LCT,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2011,14375,Uma Editora Que Pague Bem,321911107762-7
-Amanda Sizo#IS;André Figueira Riker#LCT,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,1990,4017,Revista Maravilha,94,3/9/1996
-Inês Filipa Rente Valentim#SSE,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1998,7814,Uma Editora de Gratis,881040630324-4,Conferencia dos Informaticos,12
-Nuno Castelhano#IS;Paulo José Carrilho de Sousa Gil#AC,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2009,4279,Conferencia Nao Aborrecida,Lugar Magnifico,20/6/1988
-Teresa Rocha#AC;Jorge Sá Silva#LCT;Luis Macedo#CMS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2005,96,Editora XPTO,466225948596-7,Capitulo Muito Serio,24-27
-Pedro Furtado#SSE,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2011,14261,Uma Editora Que Pague Bem,748633753977-2
-Fernando Boavida#LCT;Jorge Eduardo Rivadeneira#LCT,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2008,5328,Revista Maravilha,50,12/7/2019
-Ricardo Malheiro#CMS;João T. Fernandes#LCT,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1990,3796,Uma Editora de Gratis,856415092193-2,Conferencia dos Informaticos,100
-Fernando Barros#SSE;Marilia Curado#LCT,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2016,6843,Conferencia Nao Aborrecida,Lugar Magnifico,24/11/1990
-César Teixeira#AC;João Correia#ECOS;Mariana Cunha#LCT,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,1989,9032,Editora XPTO,416721806991-7,Capitulo Muito Serio,90-90
-Karima Velasquez#LCT;David Henrique de Souza Lima#LCT;Hugo Gonçalo Oliveira#CMS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2007,8576,Uma Editora Que Pague Bem,742960840313-6
-Diogo Nunes#AC,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2012,12141,Revista Maravilha,41,25/8/2004
-Anabela Jesus Gomes#CMS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2005,13648,Uma Editora de Gratis,639321916305-9,Conferencia dos Informaticos,23
-Bruno Sousa#LCT,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2008,902,Conferencia Nao Aborrecida,Lugar Magnifico,2/3/2019
-João T. Fernandes#LCT;Leonardo Vieira#ECOS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,1989,12041,Editora XPTO,900696216926-7,Capitulo Muito Serio,91-115
-João Henriques#LCT;João Miguel Brás Simões#ECOS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2018,4219,Uma Editora Que Pague Bem,801778032240-7
-Bruno Cabral#SSE;Fábio Lopes#AC,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,1995,9110,Revista Maravilha,14,25/10/1999
-Catarina Ferreira da Silva#IS;Paulo de Carvalho#AC;Simão Paredes#AC,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1987,4846,Uma Editora de Gratis,754936334612-4,Conferencia dos Informaticos,10
-Gonçalo Carvalho#SSE;Fábio Januário#AC,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2000,11062,Conferencia Nao Aborrecida,Lugar Magnifico,1/6/2000
-João Bicker#CMS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,1987,1276,Editora XPTO,407429851298-4,Capitulo Muito Serio,5-32
-Jorge Diogo Gomes Proença#LCT;Bruno Sousa#LCT,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,1995,7212,Uma Editora Que Pague Bem,179261825955-7
-Nuno Antunes#SSE;Hugo Menino Aguiar#LCT;Matthew Davies#CMS,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,1987,8417,Revista Maravilha,20,17/4/2006
-David Henrique de Souza Lima#LCT,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2007,8148,Uma Editora de Gratis,184492748530-8,Conferencia dos Informaticos,76
-Alexandre D. Jesus#AC,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2006,9636,Conferencia Nao Aborrecida,Lugar Magnifico,2/12/1993
-Naghmeh Ramezani Ivaki#SSE,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,1988,4869,Editora XPTO,509494878491-1,Capitulo Muito Serio,91-106
-Hugo Menino Aguiar#LCT;Hugo Menino Aguiar#LCT,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,1986,4877,Uma Editora Que Pague Bem,186988387183-5
-Diogo Pessoa#AC;Joana Costa#AC;David Abreu#LCT,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2008,4693,Revista Maravilha,40,18/10/2015
-Jorge Diogo Gomes Proença#LCT;Luis Macedo#CMS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1987,1092,Uma Editora de Gratis,435020152509-9,Conferencia dos Informaticos,36
-Artur Rebelo#CMS;Pedro Furtado#SSE,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1991,3554,Conferencia Nao Aborrecida,Lugar Magnifico,21/3/1996
-Edmundo Monteiro#LCT,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,1991,13561,Editora XPTO,724587450654-4,Capitulo Muito Serio,32-57
-Artur Rebelo#CMS;Luis Macedo#CMS;Daniel Filipe da Cunha Martins Mendes#SSE,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,1998,4490,Uma Editora Que Pague Bem,998247341938-4
-Noel Lopes#AC;Fábio Januário#AC,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2013,9655,Revista Maravilha,91,11/12/2007
-João Ricardo Lourenço#SSE;Ernesto Costa#ECOS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2010,1936,Uma Editora de Gratis,165927796464-5,Conferencia dos Informaticos,5
-Vanda Alexandre Marques dos Santos#CMS;João Miguel Brás Simões#ECOS;André Figueira Riker#LCT,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2010,5249,Conferencia Nao Aborrecida,Lugar Magnifico,12/6/1990
-João Correia#ECOS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2006,10863,Editora XPTO,925845117032-6,Capitulo Muito Serio,18-20
-Vanda Alexandre Marques dos Santos#CMS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,1989,12652,Uma Editora Que Pague Bem,723189012752-8
-F. Amilcar Cardoso#CMS;Ngombo Armando#LCT,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2013,12441,Revista Maravilha,96,26/2/2011
-Pedro Manuel Henriques da Cunha Abreu#CMS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1992,13576,Uma Editora de Gratis,553150567141-8,Conferencia dos Informaticos,69
-Paula Alexandra Silva#IS,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1992,81,Conferencia Nao Aborrecida,Lugar Magnifico,20/12/2008
-João Carlos Cunha#SSE,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2013,2060,Editora XPTO,679451918236-6,Capitulo Muito Serio,22-47
-Jorge Eduardo Rivadeneira#LCT;Naghmeh Ramezani Ivaki#SSE;Ângela Coelho#CMS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2007,8572,Uma Editora Que Pague Bem,520206115524-6
-Luis Eduardo Faria dos Santos#LCT;Luis Rosa#LCT;Hugo Gonçalo Oliveira#CMS,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,1987,2370,Revista Maravilha,3,18/5/2011
-Paulo José Carrilho de Sousa Gil#AC;João Bicker#CMS;João Pedro Gonçalves Teixeira de Macedo#ECOS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2014,14561,Uma Editora de Gratis,005756022801-5,Conferencia dos Informaticos,71
-João Miguel Brás Simões#ECOS;Cristiano Inácio Lemes#SSE,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1993,4651,Conferencia Nao Aborrecida,Lugar Magnifico,26/3/1997
-Diogo Nunes#AC;Alexandra Maria Galvão Ribeiro#AC;Ngombo Armando#LCT,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2001,14830,Editora XPTO,753108043376-8,Capitulo Muito Serio,61-79
-Arnaud Liefooghe#AC;André Figueira Riker#LCT,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2018,8127,Uma Editora Que Pague Bem,538779426361-8
-Arnaud Liefooghe#AC,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2004,6599,Revista Maravilha,6,5/2/2013
-Jorge Granjal#LCT,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1991,5550,Uma Editora de Gratis,611083772453-6,Conferencia dos Informaticos,46
-Luis Eduardo Faria dos Santos#LCT;Bruno Cabral#SSE,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1985,13820,Conferencia Nao Aborrecida,Lugar Magnifico,12/6/2009
-Francisco Baptista Pereira#ECOS;David Abreu#LCT,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2019,4296,Editora XPTO,885702090829-5,Capitulo Muito Serio,86-93
-Ana Boavida#CMS;Ângela Coelho#CMS;Marilia Curado#LCT,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,1993,8122,Uma Editora Que Pague Bem,048049157967-1
-João André Gomes de Sá e Sousa#LCT;Alexandre D. Jesus#AC;José Marcelo Fernandes#LCT,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,1992,5032,Revista Maravilha,54,25/7/1991
-Catarina Silva#AC,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1989,8180,Uma Editora de Gratis,023971377897-8,Conferencia dos Informaticos,95
-Catarina Silva#AC;Nuno Laranjeiro#SSE;Hugo Gonçalo Oliveira#CMS,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1985,3042,Conferencia Nao Aborrecida,Lugar Magnifico,15/6/1990
-Guilherme Silva#ECOS;Diogo Carvalho#SSE;José Campos#IS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,1993,10874,Editora XPTO,739297859864-4,Capitulo Muito Serio,94-99
-João P. Vilela#LCT;João Barata#IS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2008,1909,Uma Editora Que Pague Bem,706229601902-1
-Fábio Januário#AC,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2007,9005,Revista Maravilha,55,13/2/2001
-Mário Alberto Zenha-Rela#SSE;Francisco Baptista Pereira#ECOS;Diogo Pessoa#AC,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2012,13950,Uma Editora de Gratis,701176104331-3,Conferencia dos Informaticos,89
-António Pedro de Albuquerque Leitão#CMS,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2007,2876,Conferencia Nao Aborrecida,Lugar Magnifico,18/2/2018
-Gonçalo Carvalho#SSE,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2017,7640,Editora XPTO,449442952321-2,Capitulo Muito Serio,12-20
-João P. Vilela#LCT;Fernando Barros#SSE;Hugo Bastos Pereira Damião Dias#LCT,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2008,7323,Uma Editora Que Pague Bem,664186174424-0
-Luis Eduardo Faria dos Santos#LCT,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2011,9134,Revista Maravilha,60,15/10/1995
-Marco Vieira#SSE;Leonardo Vieira#ECOS;João P. Vilela#LCT,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1986,13467,Uma Editora de Gratis,089442216018-8,Conferencia dos Informaticos,33
-André Rodrigues#LCT;João Miguel Brás Simões#ECOS;José Marcelo Fernandes#LCT,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2019,14289,Conferencia Nao Aborrecida,Lugar Magnifico,8/11/2008
-Paulo Rupino da Cunha#IS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,1985,7524,Editora XPTO,694052363073-1,Capitulo Muito Serio,79-79
-Adriano Del Pino Lino#IS;Jorge Granjal#LCT;Ernesto Costa#ECOS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2003,3730,Uma Editora Que Pague Bem,293957435834-7
-João Pedro Gonçalves Teixeira de Macedo#ECOS;Fernando Barros#SSE;Nuno Antunes#SSE,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,1997,11175,Revista Maravilha,87,25/4/2018
-Ângela Coelho#CMS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2007,4647,Uma Editora de Gratis,680501655555-0,Conferencia dos Informaticos,28
-Adriana Leal#AC;Nuno Antunes#SSE;Ali AghaeiRad#AC,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2012,3158,Conferencia Nao Aborrecida,Lugar Magnifico,14/6/2010
-Jessica Cunha#ECOS;César Teixeira#AC,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2011,2831,Editora XPTO,894142741497-5,Capitulo Muito Serio,19-34
-Alexandra Maria Galvão Ribeiro#AC,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2017,9508,Uma Editora Que Pague Bem,457523179507-0
-Joel P. Arrais#AC;Francisco Baptista Pereira#ECOS;João Ricardo Lourenço#SSE,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2000,7012,Revista Maravilha,51,6/6/2007
-João Correia#ECOS;Bernardete Ribeiro#AC,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2018,8613,Uma Editora de Gratis,367761345688-1,Conferencia dos Informaticos,3
-João Paulo de Sousa Ferreira Fernandes#SSE;Ernesto Costa#ECOS,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2005,5664,Conferencia Nao Aborrecida,Lugar Magnifico,26/5/2009
-Daniel Filipe da Cunha Martins Mendes#SSE;Ricardo Malheiro#CMS;Filipe Araujo#SSE,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,1987,4739,Editora XPTO,469380836611-6,Capitulo Muito Serio,92-113
-João T. Fernandes#LCT,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,1995,9493,Uma Editora Que Pague Bem,566318967673-8
-João Correia#ECOS;Noel Lopes#AC;Ana Rodrigues#CMS,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,1989,9164,Revista Maravilha,83,9/3/1998
-David Henrique de Souza Lima#LCT;João Carlos Cunha#SSE;João André Gomes de Sá e Sousa#LCT,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1987,13059,Uma Editora de Gratis,048149930764-8,Conferencia dos Informaticos,48
-Francisco Baptista Pereira#ECOS;Nuno Laranjeiro#SSE;Inês Filipa Rente Valentim#SSE,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,1985,1493,Conferencia Nao Aborrecida,Lugar Magnifico,20/8/1994
-João Paulo de Sousa Ferreira Fernandes#SSE,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2002,10517,Editora XPTO,381386203332-3,Capitulo Muito Serio,59-61
-Dina Soeiro#IS;Ana Filipa Nogueira#SSE;David Henrique de Souza Lima#LCT,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2016,10425,Uma Editora Que Pague Bem,963918335938-6
-José Campos#IS;Mariana Cunha#LCT;Bruno Cabral#SSE,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,1989,2317,Revista Maravilha,57,16/9/2004
-João Pedro Gonçalves Teixeira de Macedo#ECOS;André Figueira Riker#LCT,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2017,12704,Uma Editora de Gratis,073321392125-9,Conferencia dos Informaticos,77
-Marilia Curado#LCT,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2006,12238,Conferencia Nao Aborrecida,Lugar Magnifico,28/2/1991
-Hugo Menino Aguiar#LCT;Pedro Quaresma#CMS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2018,4460,Editora XPTO,252946653519-4,Capitulo Muito Serio,48-52
+Luís Lucas Pereira#IS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2019,834,Uma Editora Que Pague Bem,820321737265-1
+Vanda Alexandre Marques dos Santos#CMS,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2019,2510,Revista Maravilha,19,18/6/2017
+Marilia Curado#LCT;Pedro Martins#CMS;João Ricardo Lourenço#SSE,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2014,13169,Uma Editora de Gratis,888905060933-0,Conferencia dos Informaticos,77
+Jorge Sá Silva#LCT;Mário Alberto Zenha-Rela#SSE,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2020,4650,Conferencia Nao Aborrecida,Lugar Magnifico,19/9/2019
+Pedro Furtado#SSE,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2016,333,Editora XPTO,250725650923-5,Capitulo Muito Serio,89-96
+João P. Vilela#LCT;Ana Boavida#CMS;César Teixeira#AC,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2018,4595,Uma Editora Que Pague Bem,700152516019-6
+Luis Rosa#LCT;Nuno Castelhano#IS;António Dourado#AC,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2012,13878,Revista Maravilha,93,15/11/2018
+David Henrique de Souza Lima#LCT;Bruno Cabral#SSE,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2019,7908,Uma Editora de Gratis,441009686032-0,Conferencia dos Informaticos,73
+Alexandre Fernandes#IS;Jorge C. S. Cardoso#IS,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2016,5997,Conferencia Nao Aborrecida,Lugar Magnifico,3/8/2013
+Bernardete Ribeiro#AC,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2012,2010,Editora XPTO,448129184516-0,Capitulo Muito Serio,72-100
+Pedro Martins#CMS;César Teixeira#AC;Pedro Quaresma#CMS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2010,616,Uma Editora Que Pague Bem,725958210266-0
+Daniel Tavares Ribeiro#AC;António Dourado#AC,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2017,114,Revista Maravilha,91,15/5/2016
+João P. Vilela#LCT;Luis Paquete#AC;Matthew Davies#CMS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2010,14698,Uma Editora de Gratis,121085297618-9,Conferencia dos Informaticos,32
+Filipe Araujo#SSE,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2020,14653,Conferencia Nao Aborrecida,Lugar Magnifico,18/11/2017
+César Teixeira#AC;Inês Filipa Rente Valentim#SSE,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2016,12465,Editora XPTO,131718183638-9,Capitulo Muito Serio,20-41
+Karima Velasquez#LCT;Paulo José Carrilho de Sousa Gil#AC;José Campos#IS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2018,3427,Uma Editora Que Pague Bem,612284206664-8
+Ana Maria Carvalho de Almeida#CMS;João Agnelo#SSE;António Pedro de Albuquerque Leitão#CMS,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2017,1492,Revista Maravilha,11,15/10/2011
+Bernardete Ribeiro#AC;Nuno Laranjeiro#SSE,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2015,9992,Uma Editora de Gratis,085077616953-6,Conferencia dos Informaticos,8
+Pedro Furtado#SSE,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2014,3729,Conferencia Nao Aborrecida,Lugar Magnifico,11/10/2010
+Marco Veloso#CMS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2017,986,Editora XPTO,199191441534-0,Capitulo Muito Serio,28-51
+Luis Macedo#CMS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2014,651,Uma Editora Que Pague Bem,751128824690-2
+Maria da Graça Cristo dos Santos Lopes Ruano#AC,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2015,4772,Revista Maravilha,37,14/7/2016
+Ana Sofia Pais de Sousa Almeida#IS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2010,8677,Uma Editora de Gratis,074818081717-7,Conferencia dos Informaticos,88
+Edmundo Monteiro#LCT;Bernardete Ribeiro#AC,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2020,2730,Conferencia Nao Aborrecida,Lugar Magnifico,21/12/2010
+Marco Veloso#CMS;Catarina Ferreira da Silva#IS;Artur Rebelo#CMS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2014,8920,Editora XPTO,057240424679-1,Capitulo Muito Serio,1-26
+André Figueira Riker#LCT;Fernando Boavida#LCT,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2015,11787,Uma Editora Que Pague Bem,801930657700-1
+Ricardo Couceiro#AC;Carlos Pereira#AC;Jorge Eduardo Rivadeneira#LCT,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2011,7918,Revista Maravilha,81,6/8/2020
+Pedro Martins#CMS;João Barata#IS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2014,9350,Uma Editora de Gratis,449897616872-8,Conferencia dos Informaticos,71
+João Barata#IS;André Rodrigues#LCT,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2020,14446,Conferencia Nao Aborrecida,Lugar Magnifico,27/4/2015
+Gonçalo Carvalho#SSE;Luis Paquete#AC;Naghmeh Ramezani Ivaki#SSE,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2010,906,Editora XPTO,584716214557-6,Capitulo Muito Serio,85-87
+Jorge Granjal#LCT;Noel Lopes#AC,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2019,14953,Uma Editora Que Pague Bem,227308944146-1
+Jorge Bernardino#SSE;João Ricardo Lourenço#SSE;Bruno Sousa#LCT,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2020,5282,Revista Maravilha,94,22/12/2011
+Joana Costa#AC,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2010,1965,Uma Editora de Gratis,386570254151-2,Conferencia dos Informaticos,57
+Jorge Eduardo Rivadeneira#LCT;F. Amilcar Cardoso#CMS;Leonor Isabel de Albuquerque Melo#ECOS,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2018,13836,Conferencia Nao Aborrecida,Lugar Magnifico,19/10/2020
+Bruno Cabral#SSE;Maryam Abbasi#AC,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2010,3440,Editora XPTO,160979403592-2,Capitulo Muito Serio,31-43
+Adriana Leal#AC;Pedro Quaresma#CMS;Filipe Araujo#SSE,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2012,12425,Uma Editora Que Pague Bem,544176122820-5
+Noel Lopes#AC;Luis Rosa#LCT;Ali AghaeiRad#AC,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2015,7502,Revista Maravilha,96,15/8/2010
+Maryam Abbasi#AC;Fábio Lopes#AC;Maria José Patricio Marcelino#CMS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2015,13057,Uma Editora de Gratis,644797774905-2,Conferencia dos Informaticos,22
+Hugo Menino Aguiar#LCT,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2010,10937,Conferencia Nao Aborrecida,Lugar Magnifico,4/4/2010
+Ricardo Rodrigues#CMS;Jessica Cunha#ECOS;Luis Macedo#CMS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2017,13619,Editora XPTO,106402270664-5,Capitulo Muito Serio,67-80
+Hugo Gonçalo Oliveira#CMS;Leonor Isabel de Albuquerque Melo#ECOS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2011,4953,Uma Editora Que Pague Bem,041187785452-5
+David Abreu#LCT;Hugo Menino Aguiar#LCT,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2012,1186,Revista Maravilha,19,23/1/2015
+Elisabete Reis#LCT;Rui Craveirinha#IS;David Henrique de Souza Lima#LCT,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2012,9348,Uma Editora de Gratis,215679986413-6,Conferencia dos Informaticos,88
+João Miguel Brás Simões#ECOS;Bruno Cabral#SSE;Diogo Carvalho#SSE,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2018,11526,Conferencia Nao Aborrecida,Lugar Magnifico,14/8/2012
+Inês Filipa Rente Valentim#SSE;João Carlos Cunha#SSE;Pedro Martins#CMS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2018,12390,Editora XPTO,388917850266-2,Capitulo Muito Serio,16-23
+Paulo Rupino da Cunha#IS;Hugo Gonçalo Oliveira#CMS;João T. Fernandes#LCT,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2012,2582,Uma Editora Que Pague Bem,751838048342-6
+Karima Velasquez#LCT;Leonardo Vieira#ECOS;Diogo Nunes#AC,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2017,3556,Revista Maravilha,100,1/12/2019
+Nuno Antunes#SSE,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2011,14107,Uma Editora de Gratis,378712405596-8,Conferencia dos Informaticos,8
+Elisabete Reis#LCT,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2019,7697,Conferencia Nao Aborrecida,Lugar Magnifico,10/2/2020
+Leonor Isabel de Albuquerque Melo#ECOS;Paulo Rupino da Cunha#IS;Adriano Del Pino Lino#IS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2015,7446,Editora XPTO,035528765959-5,Capitulo Muito Serio,66-68
+Ana Rodrigues#CMS;Matthew Davies#CMS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2013,13879,Uma Editora Que Pague Bem,368698112083-6
+Cristiano Inácio Lemes#SSE;Nuno Laranjeiro#SSE;Marilia Curado#LCT,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2011,8253,Revista Maravilha,93,27/9/2012
+César Teixeira#AC;Maria José Patricio Marcelino#CMS;Pedro Quaresma#CMS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2014,3229,Uma Editora de Gratis,692163793700-8,Conferencia dos Informaticos,91
+Pedro Martins#CMS;Hugo Gonçalo Oliveira#CMS;Jorge C. S. Cardoso#IS,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2010,4314,Conferencia Nao Aborrecida,Lugar Magnifico,13/1/2011
+Nuno Vicente Barreto#IS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2012,9536,Editora XPTO,929011141279-7,Capitulo Muito Serio,70-76
+Rui Pedro Paiva#CMS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2018,13167,Uma Editora Que Pague Bem,850784489468-6
+João Henriques#LCT;Karima Velasquez#LCT;Artur Rebelo#CMS,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2012,14507,Revista Maravilha,62,20/5/2017
+Mário Alberto Zenha-Rela#SSE,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2017,1187,Uma Editora de Gratis,424681724648-3,Conferencia dos Informaticos,43
+Francisco Baptista Pereira#ECOS;Guilherme Silva#ECOS;Ali AghaeiRad#AC,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2010,3541,Conferencia Nao Aborrecida,Lugar Magnifico,24/3/2013
+João Correia#ECOS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2018,7115,Editora XPTO,663768748742-3,Capitulo Muito Serio,47-71
+Matthew Davies#CMS;Bruno Cabral#SSE,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2012,4821,Uma Editora Que Pague Bem,043092367103-9
+Paulo de Carvalho#AC;Fernando Barros#SSE,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2011,14989,Revista Maravilha,25,7/11/2011
+João André Gomes de Sá e Sousa#LCT;Ngombo Armando#LCT,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2017,5905,Uma Editora de Gratis,012754858442-3,Conferencia dos Informaticos,38
+Naghmeh Ramezani Ivaki#SSE,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2016,8493,Conferencia Nao Aborrecida,Lugar Magnifico,15/1/2016
+Bernardete Ribeiro#AC;Teresa Rocha#AC,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2019,6443,Editora XPTO,921188341791-9,Capitulo Muito Serio,10-18
+João Barata#IS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2020,7094,Uma Editora Que Pague Bem,801788558542-4
+Carlos M. Fonseca#AC,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2011,1547,Revista Maravilha,4,20/12/2017
+Leonardo Vieira#ECOS;Rui Pedro Paiva#CMS;Matthew Davies#CMS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2019,902,Uma Editora de Gratis,439254799382-8,Conferencia dos Informaticos,49
+António Pedro de Albuquerque Leitão#CMS;Carlos Pereira#AC,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2019,8336,Conferencia Nao Aborrecida,Lugar Magnifico,28/1/2011
+Adriano Del Pino Lino#IS;Bernardete Ribeiro#AC;Marco Vieira#SSE,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2016,12527,Editora XPTO,874225171635-4,Capitulo Muito Serio,63-69
+Leonardo Vieira#ECOS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2012,10126,Uma Editora Que Pague Bem,174285176711-1
+Paulo Rupino da Cunha#IS;Carlos Pereira#AC,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2011,12262,Revista Maravilha,9,27/7/2016
+Antonio Dias de Figueiredo#IS;Bruno Sousa#LCT;Fernando Barros#SSE,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2011,10738,Uma Editora de Gratis,511347739309-5,Conferencia dos Informaticos,69
+Matthew Davies#CMS;Ricardo Malheiro#CMS;Marco Vieira#SSE,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2018,6722,Conferencia Nao Aborrecida,Lugar Magnifico,11/9/2010
+Teresa Mendes#CMS;João P. Vilela#LCT;Rui Pedro Paiva#CMS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2017,8276,Editora XPTO,185917020028-8,Capitulo Muito Serio,19-23
+Ana Maria Carvalho de Almeida#CMS;Luis Rosa#LCT;Bruno Cabral#SSE,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2018,12157,Uma Editora Que Pague Bem,032049000065-6
+Joel P. Arrais#AC;João Ricardo Lourenço#SSE,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2017,5430,Revista Maravilha,1,27/9/2015
+Jessica Cunha#ECOS;César Teixeira#AC;Antonio Dias de Figueiredo#IS,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2020,6264,Uma Editora de Gratis,631912316729-7,Conferencia dos Informaticos,78
+Ângela Coelho#CMS;Noel Lopes#AC,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2019,12283,Conferencia Nao Aborrecida,Lugar Magnifico,1/3/2014
+Daniel Filipe da Cunha Martins Mendes#SSE;Joel P. Arrais#AC;André Rodrigues#LCT,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2010,6749,Editora XPTO,829065407376-0,Capitulo Muito Serio,59-85
+F. Amilcar Cardoso#CMS;João Carlos Cunha#SSE,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2013,1645,Uma Editora Que Pague Bem,222240539843-9
+Mariana Monteiro#ECOS;João Carlos Cunha#SSE,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2012,11140,Revista Maravilha,76,10/9/2015
+António Pedro de Albuquerque Leitão#CMS;Elisabete Reis#LCT,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2015,12062,Uma Editora de Gratis,842955763072-9,Conferencia dos Informaticos,74
+Paulo José Carrilho de Sousa Gil#AC;Jorge Sá Silva#LCT;José Campos#IS,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2018,5964,Conferencia Nao Aborrecida,Lugar Magnifico,10/4/2019
+Jorge Diogo Gomes Proença#LCT;Ricardo Rodrigues#CMS;Bruno Sousa#LCT,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2017,7061,Editora XPTO,076804066908-1,Capitulo Muito Serio,83-91
+António Cruz#CMS,Um Titulo,Livro,Um Resumo Estruturado,palavras;chave;importantes,2019,7670,Uma Editora Que Pague Bem,128371050074-1
+Jorge C. S. Cardoso#IS;Francisco Baptista Pereira#ECOS;Nuno Antunes#SSE,Um Titulo,Artigo de Revista,Um Resumo Estruturado,palavras;chave;importantes,2018,2154,Revista Maravilha,34,21/10/2012
+João Pedro Gonçalves Teixeira de Macedo#ECOS;Mário Alberto Zenha-Rela#SSE,Um Titulo,Livro de Artigos de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2012,2238,Uma Editora de Gratis,416536499998-0,Conferencia dos Informaticos,89
+Ana Rodrigues#CMS;Luís Lucas Pereira#IS,Um Titulo,Artigo de Conferencia,Um Resumo Estruturado,palavras;chave;importantes,2017,5734,Conferencia Nao Aborrecida,Lugar Magnifico,2/2/2015
+Paulo José Carrilho de Sousa Gil#AC;Adriano Del Pino Lino#IS,Um Titulo,Capitulo de Livro,Um Resumo Estruturado,palavras;chave;importantes,2019,8588,Editora XPTO,130247578960-1,Capitulo Muito Serio,96-103

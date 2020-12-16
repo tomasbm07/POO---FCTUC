@@ -10,9 +10,6 @@ public class Main {
      */
     public static void main(String[] args) {
         Equipa CISUC = new Equipa();
-        //fileHandler.addMembersFromObjFile("Input.txt", CISUC);
-        //fileHandler.addPubToObjFile("Publications.txt");
-        //fileHandler.addPubFromObjFile(CISUC);
         fileHandler.readFiles(CISUC);
         menu(CISUC);
 
@@ -23,11 +20,11 @@ public class Main {
     private static void menu(Equipa equipa) {
         Scanner sc = new Scanner(System.in);
         System.out.println("""
-                |-----------------------------|
+                -------------------------------
                 |         Projeto POO:        |
                 | Gestor de Publicaçoes CISUC |
                 |         Tomás Mendes        |
-                |-----------------------------|
+                -------------------------------
                 """);
         int choice = 1;
         while (choice != 0) {
@@ -47,25 +44,25 @@ public class Main {
 
     private static void showOptions() {
         System.out.println();
-        System.out.println("|---------------------------------|");
-        System.out.println("|1->Parte 1                       |");
-        System.out.println("|2->Parte 2                       |");
-        System.out.println("|1->Parte 3                       |");
-        System.out.println("|1->Parte 4                       |");
-        System.out.println("|1->Parte 5                       |");
-        System.out.println("|0->Sair                          |");
-        System.out.println("|---------------------------------|");
-        System.out.print("|Escolha-> ");
+        System.out.println("-----------------------------------");
+        System.out.println("| 1 -> Parte 1                    |");
+        System.out.println("| 2 -> Parte 2                    |");
+        System.out.println("| 3 -> Parte 3                    |");
+        System.out.println("| 4 -> Parte 4                    |");
+        System.out.println("| 5 -> Parte 5                    |");
+        System.out.println("| 0 -> Sair                       |");
+        System.out.println("-----------------------------------");
+        System.out.print("| Escolha -> ");
     }
 
     private static void parte1(Equipa equipa) {
-        System.out.println("|---------------------------------|");
+        System.out.println("---------------------------------");
         equipa.showMembersStats();
-        System.out.println("|---------------------------------|");
+        System.out.println("---------------------------------");
         System.out.println("Publicacoes dos ultimos 5 anos -> " + equipa.getNumPubs(5));
-        System.out.println("|---------------------------------|");
+        System.out.println("---------------------------------");
         equipa.showPubStats();
-        System.out.println("|---------------------------------|");
+        System.out.println("---------------------------------");
     }
 
     private static void parte2(Equipa equipa) {
@@ -97,7 +94,12 @@ public class Main {
 
     private static void parte5(Equipa equipa) {
         equipa.showMembersStats();
+        System.out.println("---------------------------------");
         System.out.println("Publicacoes dos ultimos 5 anos -> " + equipa.getNumPubs(5));
+        System.out.println("---------------------------------");
+        equipa.showAllGroupsPubStats(equipa);
+        System.out.println("---------------------------------");
+        equipa.showGroupedPubs();
     }
 
 

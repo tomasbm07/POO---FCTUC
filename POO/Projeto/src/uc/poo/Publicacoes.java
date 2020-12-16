@@ -158,7 +158,7 @@ class Livro extends Publicacao {
     }
 
     public String getTipo() {
-        return "Livro";
+        return "livro";
     }
 
     public String toString() {
@@ -192,7 +192,7 @@ class capituloLivro extends Livro {
     }
 
     public String toString() {
-        return "Capitulo de Livro, " + super.toString() + ", NomeLivro: %s, Paginas: %s".formatted(nome, paginas);
+        return "Capitulo de " + super.toString() + ", NomeLivro: %s, Paginas: %s".formatted(nome, paginas);
     }
 
 }//capLivro
@@ -221,7 +221,7 @@ class livroArtigos extends Livro {
     }
 
     public String toString() {
-        return "Livro de Artigos de Conf, " + super.toString() + ", NomeConf: %s, NumArtigos: %d".formatted(nomeConf, numArtigos);
+        return "Artigos de Conf - " + super.toString() + ", NomeConf: %s, NumArtigos: %d".formatted(nomeConf, numArtigos);
     }
 
 }//livroArtigos

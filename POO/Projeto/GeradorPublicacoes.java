@@ -88,7 +88,7 @@ class GeradorPublicacoes {
 
     private int geraAno() {
         Random rand = new Random();
-        return rand.nextInt(35) + 1985;
+        return rand.nextInt(10 + 1) + 2010;
     }
 
     private String geraAutores(List<String> autores) {

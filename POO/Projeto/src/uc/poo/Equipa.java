@@ -169,7 +169,7 @@ class Equipa {
         int count = 0;
         for (Publicacao p : getPublicacoes()) {
             int ano = p.getAno();
-            if (ano > 2020 - n && ano < 2020) { // 2020-n < ano < 2020
+            if (ano >= 2020 - n && ano <= 2020) { // 2020-n < ano < 2020
                 //System.out.println(p);
                 count++;
             }
@@ -184,7 +184,7 @@ class Equipa {
                 case "artigoConferencia" -> artigoConf++;
                 case "artigoRevista" -> artigoRev++;
                 case "capituloLivro" -> capLivro++;
-                case "Livro" -> livro++;
+                case "livro" -> livro++;
                 case "livroArtigos" -> livroArtigos++;
             }
         }
@@ -212,7 +212,6 @@ class Equipa {
     public void showPubsGroupStats(Equipa equipa, String grupo) {
         ArrayList<Publicacao> pubs = new ArrayList<>();
         ArrayList<Publicacao> pubs5Anos = new ArrayList<>();
-        Scanner sc = new Scanner(System.in);
 
         switch (grupo) {
             case "AC" -> pubs = equipa.AC().getPublicacoes();
@@ -225,8 +224,9 @@ class Equipa {
         }
         for (Publicacao p : pubs) {
             int ano = p.getAno();
-            if (ano > 2020 - 5 && ano < 2020) { // 2020-5 < ano < 2020
+            if (ano >= 2020 - 5 && ano <= 2020) { // 2020-5 <= ano < 2020
                 pubs5Anos.add(p);
+                //2015 - 2015
             }
         }
 
@@ -245,7 +245,6 @@ class Equipa {
     }
 
     public void getPubsInvestigador(Equipa equipa, String grupo, String nome) {
-        Scanner sc = new Scanner(System.in);
         ArrayList<Investigador> membros;
         ArrayList<Publicacao> pubs = new ArrayList<>();
         membros = getMembros(equipa, grupo);
@@ -257,7 +256,7 @@ class Equipa {
             }
         }
 
-        for (Publicacao p: organizarPubs(pubs)) {
+        for (Publicacao p : organizarPubs(pubs)) {
             System.out.println(p);
         }
 
@@ -275,29 +274,27 @@ class Equipa {
         };
     }
 
-    private ArrayList<Publicacao> organizarPubs(ArrayList<Publicacao> pubs){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Ordenar por: ");
-        System.out.println("1 -> Ano");
-        System.out.println("2 -> Tipo de publicacao");
-        System.out.println("3 -> Fator de impacto");
-        System.out.print("Escolha ->");
-        int choice = sc.nextInt();
-        switch (choice) {
-            case 1 -> pubs.sort((a, b) -> b.getAno() - a.getAno()); // Ordenado por ano
-            case 2 -> pubs.sort((a, b) -> b.getTipo().compareTo(a.getTipo())); // Organizar por tipo
-            case 3 -> pubs.sort((a, b) -> a.fatorImpacto() - b.fatorImpacto()); // Ordenado por fator de impacto
-            default -> System.out.println("Valor Invalido!");
-        }
+    private ArrayList<Publicacao> organizarPubs(ArrayList<Publicacao> pubs) {
+        pubs.sort(new comparador()); // == Colections.sort(pubs, new comparador());
         return pubs;
     }
 
     //TODO acabar esta parte
-    public void showAllGroupsPubStats(Equipa equipa){
-        System.out.println("Dados referentes aos ultimos 5 anos");
-        for (Grupo g: grupos) {
-            System.out.println(g.getAcronimo() + " -> ");
-            System.out.println("Total -> " + g.getNumPubs(5));
+    public void showAllGroupsPubStats(Equipa equipa) {
+        for (Grupo g : grupos) {
+            System.out.println(g.getAcronimo() + " -> " + g.getNumPubs(5));
+        }
+    }
+
+    public void showGroupedPubs() {
+        ArrayList<Publicacao> aux;
+        for (Grupo g : grupos) {
+            aux = organizarPubs(g.getPublicacoes());
+            System.out.println(g.getAcronimo());
+            for (Publicacao p : aux) {
+
+            }
+            System.out.println();
         }
     }
 

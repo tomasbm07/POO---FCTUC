@@ -173,7 +173,7 @@ abstract class Grupo {
         int count = 0;
         for (Publicacao p : getPublicacoes()) {
             int ano = p.getAno();
-            if (ano > 2020 - n && ano < 2020) { // 2020-n < ano < 2020
+            if (ano >= 2020 - n && ano <= 2020) { // 2020-n < ano < 2020
                 count++;
             }
         }

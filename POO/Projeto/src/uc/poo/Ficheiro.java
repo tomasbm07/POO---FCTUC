@@ -109,6 +109,7 @@ class fileHandler {
             ObjectOutputStream oi = new ObjectOutputStream(fi);
 
             while ((data = br.readLine()) != null) {
+
                 if (data.equals("#ESTUDANTES")) {
                     isEfetivo = false;
                     continue;
@@ -121,6 +122,9 @@ class fileHandler {
                     System.out.println("Erro->Formato incorreto do ficheiro de input dos membros");
                     continue;
                 }
+
+                if(data.contains("//") || data.isBlank())
+                    continue;
 
                 String[] arrStr = data.split(",");
 

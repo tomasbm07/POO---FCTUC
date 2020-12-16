@@ -1,3 +1,7 @@
+// Formato do ficheiro de Membros:
+//  Membros efetivos
+//  Membros estudantes
+
 #EFETIVOS
 Efetivo,Alberto Cardoso,ac@dei.uc.pt,AC,D3.3,239392308
 Efetivo,António Dourado,ad@dei.uc.pt,AC,D7.7,237471941
@@ -88,7 +92,7 @@ Estudante,Diogo Pessoa,dp@gmail.com,AC,Um Titulo Aleatorio,2026,Paulo José Carr
 Estudante,Fábio Januário,fj@gmail.com,AC,Um Titulo Aleatorio,2021,Carlos M. Fonseca
 Estudante,Fábio Lopes,fl@gmail.com,AC,Um Titulo Aleatorio,2023,Joel P. Arrais
 Estudante,Ana Rodrigues,ar1@gmail.com,CMS,Um Titulo Aleatorio,2024,Maria José Patricio Marcelino
-Estudante,Ângela Coelho,�c@gmail.com,CMS,Um Titulo Aleatorio,2025,Luis Macedo
+Estudante,Ângela Coelho,�c@gmail.com,CMS,Um Titulo Aleatorio,2025,Luis Macedo
 Estudante,António Cruz,ac9@gmail.com,CMS,Um Titulo Aleatorio,2021,Pedro Martins
 Estudante,António Pedro de Albuquerque Leitão,apdal@gmail.com,CMS,Um Titulo Aleatorio,2022,Ana Cristina da Costa Oliveira Alves
 Estudante,André Figueira Riker,afr@gmail.com,LCT,Um Titulo Aleatorio,2022,João P. Vilela
