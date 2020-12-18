@@ -180,6 +180,18 @@ abstract class Grupo {
         return count;
     }
 
+    public ArrayList<Publicacao> getPublicacoes(int n) {
+        ArrayList<Publicacao> pubs = new ArrayList<>();
+        for (Publicacao p : getPublicacoes()) {
+            int ano = p.getAno();
+            if (ano >= 2020 - n && ano <= 2020) { // 2020-n < ano < 2020
+                if (!pubs.contains(p))
+                    pubs.add(p);
+            }
+        }
+        return pubs;
+    }
+
 
 }//Grupo
 

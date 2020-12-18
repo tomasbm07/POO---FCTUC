@@ -90,12 +90,12 @@ public class Main {
     }
 
     private static void parte5(Equipa equipa) {
-        equipa.showMembersStats();
-        System.out.println("---------------------------------");
-        System.out.println("Publicacoes dos ultimos 5 anos -> " + equipa.getNumPubs(5));
-        System.out.println("---------------------------------");
-        equipa.showAllGroupsPubStats(equipa);
-        System.out.println("---------------------------------");
+        //equipa.showMembersStats();
+        //System.out.println("---------------------------------");
+        //System.out.println("Publicacoes dos ultimos 5 anos -> " + equipa.getNumPubs(5));
+        //System.out.println("---------------------------------");
+        //equipa.showAllGroupsPubStats(equipa);
+        //System.out.println("---------------------------------");
         equipa.showGroupedPubs();
     }
 

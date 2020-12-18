@@ -287,15 +287,50 @@ class Equipa {
     }
 
     public void showGroupedPubs() {
-        ArrayList<Publicacao> aux;
+        ArrayList<ArrayList<Publicacao>> auxAno;
+        ArrayList<ArrayList<Publicacao>> auxPub;
+        ArrayList<Publicacao> ano = new ArrayList<>();
+        ArrayList<Publicacao> pub = new ArrayList<>();
+
+
         for (Grupo g : grupos) {
-            aux = organizarPubs(g.getPublicacoes());
-            System.out.println(g.getAcronimo());
-            for (Publicacao p : aux) {
+            boolean initRunAno = true;
+            boolean initRunPub = true;
+            int anoAtual = 0;
+            int anoPrev = 0;
+            String tipoAtual = "";
+            String tipoPrev = "";
+            auxAno = new ArrayList<>();
+            auxPub = new ArrayList<>();
+
+            System.out.println(g.getAcronimo() + ": ");
+            for (Publicacao p : organizarPubs(g.getPublicacoes(5))) {
+                System.out.println(p);
+
+                anoAtual = p.getAno();
+                if (anoAtual != anoPrev) {
+                    if (!initRunAno)
+                        auxAno.add(ano);
+
+                        ano = new ArrayList<>();
+                    ano.add(p);
+                    initRunAno = false;
+                } else
+                    ano.add(p);
+                anoPrev = anoAtual;
+
 
             }
+            auxAno.add(ano);
+
+            for (ArrayList<Publicacao> i : auxAno) {
+                System.out.println(i.get(0).getAno() + " -> " + i.size());
+            }
+
+
             System.out.println();
         }
+
     }
 
 }//Equipa
