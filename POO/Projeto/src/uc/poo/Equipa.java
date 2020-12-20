@@ -1,6 +1,7 @@
 package uc.poo;
 
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  *
@@ -287,50 +288,66 @@ class Equipa {
     }
 
     public void showGroupedPubs() {
-        ArrayList<ArrayList<Publicacao>> auxAno;
-        ArrayList<ArrayList<Publicacao>> auxPub;
-        ArrayList<Publicacao> ano = new ArrayList<>();
-        ArrayList<Publicacao> pub = new ArrayList<>();
-
-
         for (Grupo g : grupos) {
-            boolean initRunAno = true;
-            boolean initRunPub = true;
-            int anoAtual = 0;
-            int anoPrev = 0;
-            String tipoAtual = "";
-            String tipoPrev = "";
-            auxAno = new ArrayList<>();
-            auxPub = new ArrayList<>();
+            LinkedHashMap<Integer, LinkedHashMap<String, LinkedHashMap<Character, ArrayList<Publicacao>>>> map = new LinkedHashMap<>();
+            int anoAtual;
+            String tipoAtual;
+            char fatorAtual;
 
+            System.out.println("-----------------------------------");
             System.out.println(g.getAcronimo() + ": ");
+
             for (Publicacao p : organizarPubs(g.getPublicacoes(5))) {
-                System.out.println(p);
+                //System.out.println(p);
 
                 anoAtual = p.getAno();
-                if (anoAtual != anoPrev) {
-                    if (!initRunAno)
-                        auxAno.add(ano);
+                if (map.get(anoAtual) == null) {
+                    map.put(anoAtual, new LinkedHashMap<>());
+                }
 
-                        ano = new ArrayList<>();
-                    ano.add(p);
-                    initRunAno = false;
-                } else
-                    ano.add(p);
-                anoPrev = anoAtual;
+                tipoAtual = p.getTipo();
+                if (map.get(anoAtual).get(tipoAtual) == null) {
+                    map.get(anoAtual).put(tipoAtual, new LinkedHashMap<>());
+                }
 
-
+                fatorAtual = p.fatorImpacto();
+                if (map.get(anoAtual).get(tipoAtual).get(fatorAtual) == null) {
+                    map.get(anoAtual).get(tipoAtual).put(fatorAtual, new ArrayList<>());
+                    map.get(anoAtual).get(tipoAtual).get(fatorAtual).add(p);
+                } else {
+                    map.get(anoAtual).get(tipoAtual).get(fatorAtual).add(p);
+                }
             }
-            auxAno.add(ano);
+            printHashMap(map);
+        }
+    }
 
-            for (ArrayList<Publicacao> i : auxAno) {
-                System.out.println(i.get(0).getAno() + " -> " + i.size());
+    private void printHashMap(LinkedHashMap<Integer, LinkedHashMap<String, LinkedHashMap<Character, ArrayList<Publicacao>>>> map){
+        int countAno = 0;
+        int countFator = 0;
+        int countTipo = 0;
+
+        for (int ano : map.keySet()) {
+            System.out.println(ano + ": ");
+            for (String tipo : map.get(ano).keySet()) {
+                System.out.println("    " + tipo + ": ");
+                for (char fator : map.get(ano).get(tipo).keySet()) {
+                    for (Publicacao p : map.get(ano).get(tipo).get(fator)) {
+                        countFator++;
+                    }
+                    System.out.println("    " + "    " + fator + " -> " + countFator);
+                    countTipo += countFator;
+                    countAno += countFator;
+                    countFator = 0;
+                }
+                System.out.println("    " + "    " + "Total" + " -> " + countTipo);
+                countTipo = 0;
             }
-
-
+            System.out.println("Total" + " -> " + countAno);
+            countAno = 0;
             System.out.println();
         }
-
     }
+
 
 }//Equipa
