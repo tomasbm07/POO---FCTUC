@@ -32,9 +32,6 @@ class fileHandler {
             System.out.println(">>Done<<");
             System.out.println(">>Dados lidos dos Ficheiros de Objetos<<");
 
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -66,7 +63,6 @@ class fileHandler {
                     }
                     //System.out.println(i);
                 }
-
             }
 
             //Ler as publicacaoes do ficheiro de objetos
@@ -90,16 +86,11 @@ class fileHandler {
 
 
     //TODO add read protection, make sure, efetivou ou estudante, nome (sem numeros),etc
-    /*public static void addMembersFromObjFile(String filename, Equipa equipa) {
-    }*/
-
-    //Metodo inicial: text file -> object file (1st run only)
-    //TODO add check para ver se ja exite um ficheiro de objetos, se n usar este metodo
     private static void addMembersToObjFile(File filename, Equipa equipa) {
         String data;
         Investigador investigador;
         int linha = 1;
-        boolean isEfetivo = true;
+        boolean readingEfetivo = true;
 
         try {
             FileReader f = new FileReader("Input.txt");
@@ -111,33 +102,45 @@ class fileHandler {
             while ((data = br.readLine()) != null) {
 
                 if (data.equals("#ESTUDANTES")) {
-                    isEfetivo = false;
+                    readingEfetivo = false;
                     continue;
                 }
 
                 if (data.equals("#EFETIVOS"))
                     continue;
 
-                if (data.equals("#ESTUDANTES") && isEfetivo == true) {
-                    System.out.println("Erro->Formato incorreto do ficheiro de input dos membros");
+                if (data.equals("#ESTUDANTES") && readingEfetivo == true) {
+                    System.out.println("Erro -> Formato incorreto do ficheiro de input dos membros");
                     continue;
                 }
 
-                if(data.contains("//") || data.isBlank())
+                if (data.contains("//") || data.isBlank())
                     continue;
 
                 String[] arrStr = data.split(",");
 
-                if (isEfetivo)
-                    investigador = new Efetivo(arrStr[1], arrStr[2], arrStr[3], arrStr[4], arrStr[5]);
-                else
-                    investigador = new Estudante(arrStr[1], arrStr[2], arrStr[3], arrStr[4], arrStr[5], arrStr[6]);
-                oi.writeObject(investigador);
-
-                //TODO acabar a funçao de check dos membros
-                /*if (checkMember(arrStr, linha) == -1){
+                if (readingEfetivo && arrStr.length != 6) {
+                    System.out.println("Linha -> " + linha + " Erro -> Formato incorreto do ficheiro de input dos membros");
                     continue;
-                }*/
+                }
+
+                if (!readingEfetivo && arrStr.length != 7) {
+                    System.out.println("Linha -> " + linha + " Erro -> Formato incorreto do ficheiro de input das publicaçoes");
+                    continue;
+                }
+
+                if (readingEfetivo){
+                    if (!arrStr[0].equals("Efetivo"))
+                        System.out.println("Linha -> " + linha + " Erro -> Formato incorreto do ficheiro dos membros");
+                    investigador = new Efetivo(arrStr[1], arrStr[2], arrStr[3], arrStr[4], arrStr[5]);
+                }
+                else{
+                    if (!arrStr[0].equals("Estudante"))
+                        System.out.println("Linha -> " + linha + " Erro -> Formato incorreto do ficheiro dos membros");
+                    investigador = new Estudante(arrStr[1], arrStr[2], arrStr[3], arrStr[4], arrStr[5], arrStr[6]);
+                }
+
+                oi.writeObject(investigador);
 
                 linha++;
             }
@@ -221,75 +224,6 @@ class fileHandler {
             }
         }
         return null;
-    }
-
-
-    //TODO acabar e ver pq é q n da erros em alguns sitios
-    private static int checkMember(String[] line, int linha) {
-        //Chech empty Strings
-        if (!line[0].isBlank()) {
-            if (line[1].isBlank() || line[2].isBlank() || line[3].isBlank() || line[4].isBlank() || line[5].isBlank()) {
-                System.err.print("Linha: " + linha + " -> Nehum dos parametros pode ser vazio\n");
-                return -1;
-            }
-        } else {
-            System.err.print("Linha: " + linha + " -> Nehum dos parametros pode ser vazio\n");
-            return -1;
-        }
-
-        //Check nums no Tipo
-        if (!isAplha(line[0])) {
-            System.err.print("Linha: " + linha + " -> Tipo apenas pode conter letras!\n");
-            return -1;
-        }
-
-        //Check Nome //TODO handle spaces in name
-        if (!isAplha(line[1])) {
-            System.err.print("Linha: " + linha + " -> Nome apenas pode conter letras!\n");
-            return -1;
-        }
-
-        //Check Grupo
-        if (!isGroupValid(line[3])) {
-            System.err.print("Linha: " + linha + " -> Grupo nao pertence a lista de grupos\n");
-            return -1;
-        }
-
-        //Check Gabinete???
-
-        //Check Telefone
-        if (line[0].equals("Efetivo")) {
-            if (line[5].length() != 9) {
-                System.err.print("Linha: " + linha + " -> Telefone tem de ter 9 digitos\n");
-                return -1;
-            }
-            if (!isPhoneValid(line[5])) {
-                System.err.print("Linha: " + linha + " -> Telefone apenas pode conter numeros\n");
-                return -1;
-            }
-        }
-        return 0;
-    }
-
-    private static boolean isAplha(String s) {
-        return s.matches("[a-zA-Z]+");
-    }
-
-    private static boolean isPhoneValid(String s) {
-        return s.matches("[0-9]+");
-    }
-
-    private static boolean isNumber(String s) {
-        try {
-            Double num = Double.parseDouble(s);
-        } catch (NumberFormatException e) {
-            return false;
-        }
-        return true;
-    }
-
-    private static boolean isGroupValid(String s) {
-        return s.equals("AC") || s.equals("CMS") || s.equals("ECOS") || s.equals("IS") || s.equals("LCT") || s.equals("SSE");
     }
 
 }//fileHandler
