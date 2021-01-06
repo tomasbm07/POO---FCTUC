@@ -50,21 +50,27 @@ abstract class Publicacao implements Serializable{
         String[] autores = s.split(";");
         //Autor = Nome#Grupo
         this.autores.addAll(Arrays.asList(autores));
-        /*for (String autor: autores) {
-            this.autores.add(autor);
-        }*/
     }
 
+    public void setAutores(ArrayList<String> autores){
+        this.autores = autores;
+    }
+
+    /**
+     * Returns uma String com o nome dos autores devidamente separados
+     * @return String
+     */
     private String autoresToString() {
         //Autor = Nome#Grupo
         String autores = "";
         for (int i = 0; i < this.autores.size(); i++) {
             String[] aux = this.autores.get(i).split("#");
             autores = autores.concat(aux[0]);
-            if (i != this.autores.size())
+            if (i + 1  != this.autores.size())
                 autores = autores.concat(" e ");
         }
         return autores;
+
     }
 
     abstract String getTipo();

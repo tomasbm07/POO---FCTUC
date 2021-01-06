@@ -12,8 +12,11 @@ public class Main {
 
     }//main
 
-    //TODO procurar cenas do System color
-    //TODO procurar console clear
+
+    /**
+     * Apresenta o menu da aplicacao
+     * @param equipa Equipa
+     */
     private static void menu(Equipa equipa) {
         Scanner sc = new Scanner(System.in);
         System.out.println("""
@@ -39,6 +42,9 @@ public class Main {
         }
     }
 
+    /**
+     * Mostra as opcoes para o menu
+     */
     private static void showOptions() {
         System.out.println();
         System.out.println("-----------------------------------");
@@ -52,6 +58,14 @@ public class Main {
         System.out.print("| Escolha -> ");
     }
 
+    /**
+     * Apresenta os parametos gerais da CISUC:
+     *                    -Total de membros
+     *                    -Numero de membros de cada categoria
+     *                    -Total de publicacoes dos ultimos 5 anos
+     *                    -Numero de publicacoes de cada tipo
+     * @param equipa equipa
+     */
     private static void parte1(Equipa equipa) {
         System.out.println("---------------------------------");
         equipa.showMembersStats();
@@ -62,6 +76,10 @@ public class Main {
         System.out.println("---------------------------------");
     }
 
+    /**
+     * Lista as publicacoes de um grupo, organizadas por ano, tipo, e fator de impacto
+     * @param equipa Equipa
+     */
     private static void parte2(Equipa equipa) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Grupos -> AC, CMS, ECOS, IS, LCT, SSE");
@@ -70,6 +88,10 @@ public class Main {
         equipa.showPubsGroupStats(equipa, grupo);
     }
 
+    /**
+     * Lista os membros de um grupo de investigacao agrupados por categoria
+     * @param equipa Equipa
+     */
     private static void parte3(Equipa equipa) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Grupos -> AC, CMS, ECOS, IS, LCT, SSE");
@@ -78,6 +100,10 @@ public class Main {
         equipa.printGroupMembers(equipa, grupo);
     }
 
+    /**
+     * ista as publicacoes de um investigador, agrupadas por ano, tipo e fator de impacto
+     * @param equipa Equipa
+     */
     private static void parte4(Equipa equipa) {
         Scanner sc = new Scanner(System.in);
         Scanner sc2 = new Scanner(System.in);
@@ -89,13 +115,21 @@ public class Main {
         equipa.getPubsInvestigador(equipa, grupo, nome);
     }
 
+    /**
+     * Lista, de todos os grupos de investigacao,
+     *                     -Total de Membros
+     *                     -Numero de membros de cada categoria
+     *                     -Total de publicacoes dos ultimos 5 anos
+     *                     -Numero de publicacoes, dos ultimos 5 anos, agrupadas por ano, tipo e fator de impacto
+     * @param equipa Equipa
+     */
     private static void parte5(Equipa equipa) {
-        //equipa.showMembersStats();
-        //System.out.println("---------------------------------");
-        //System.out.println("Publicacoes dos ultimos 5 anos -> " + equipa.getNumPubs(5));
-        //System.out.println("---------------------------------");
-        //equipa.showAllGroupsPubStats(equipa);
-        //System.out.println("---------------------------------");
+        equipa.showMembersStats();
+        System.out.println("---------------------------------");
+        System.out.println("Publicacoes dos ultimos 5 anos -> " + equipa.getNumPubs(5));
+        System.out.println("---------------------------------");
+        equipa.showAllGroupsPubStats(equipa);
+        System.out.println("---------------------------------");
         equipa.showGroupedPubs();
     }
 

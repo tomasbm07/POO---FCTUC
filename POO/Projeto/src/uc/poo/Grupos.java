@@ -158,6 +158,10 @@ abstract class Grupo {
         return i;
     }
 
+    /**
+     * Returns um Array com as publicacoes do grupo
+     * @return ArrayList
+     */
     public ArrayList<Publicacao> getPublicacoes() {
         ArrayList<Publicacao> pubs = new ArrayList<>();
         for (Investigador i : membros) {
@@ -169,6 +173,11 @@ abstract class Grupo {
         return pubs;
     }
 
+    /**
+     * Returns o numero de publicacoes, dos ultimos 5 anos, do grupo
+     * @param n ano
+     * @return count
+     */
     public int getNumPubs(int n) {
         int count = 0;
         for (Publicacao p : getPublicacoes()) {
@@ -180,6 +189,11 @@ abstract class Grupo {
         return count;
     }
 
+    /**
+     * Returns um Array com as publicacoes do grupo, dos ultimos n anos
+     * @param n ano
+     * @return ArrayList
+     */
     public ArrayList<Publicacao> getPublicacoes(int n) {
         ArrayList<Publicacao> pubs = new ArrayList<>();
         for (Publicacao p : getPublicacoes()) {

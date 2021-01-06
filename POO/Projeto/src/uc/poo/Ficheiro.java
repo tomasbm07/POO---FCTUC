@@ -9,6 +9,12 @@ import java.util.ArrayList;
  */
 class fileHandler {
 
+    /**
+     * Metodo principal de leitura. Verifica se existem os ficheiros de objetos, se ja existirem,
+     * os dados sao lidos dos mesmos, caso contrario, os dados sao lidos do ficheiro de texto e
+     * sao criados os ficheiros de objetos.
+     * @param equipa Equipa
+     */
     public static void readFiles(Equipa equipa) {
         try {
             File objMembros = new File("Membros.obj");
@@ -37,6 +43,10 @@ class fileHandler {
         }
     }
 
+    /**
+     * Os dados sao lidos dos ficheiros de objetos e carregados para as estrutras da aplicacao.
+     * @param equipa Equipa
+     */
     public static void readFromObjFiles(Equipa equipa) {
         Investigador i;
         Publicacao p;
@@ -50,7 +60,7 @@ class fileHandler {
             ObjectInputStream oa = new ObjectInputStream(fa);
 
             //Ler o membros do ficheiro de objetos
-            while (fi.available() > 0) {
+
                 while (fi.available() > 0) {
                     i = (Investigador) oi.readObject();
                     switch (i.getGrupo()) {
@@ -63,15 +73,18 @@ class fileHandler {
                     }
                     //System.out.println(i);
                 }
-            }
 
             //Ler as publicacaoes do ficheiro de objetos
             while (fa.available() > 0) {
                 p = (Publicacao) oa.readObject();
                 autores = p.getAutores(); // Autor = Nome#Grupo
+
+                modifyNameAutores(p, equipa);
+
                 for (String s : autores) {
                     String aux[] = s.split("#");
-                    getInvestigador(aux[0], aux[1], equipa).addPub(p); // Add Publicacao aos Investigadores
+                    i = getInvestigador(aux[0], aux[1], equipa);
+                    i.addPub(p); // Add Publicacao aos Investigadores
                 }
             }
 
@@ -84,8 +97,29 @@ class fileHandler {
         }
     }
 
+    /**
+     * Metodo que altera o nome dos autores de uma publicacao para o seu nome publico
+     * @param p Publicacao a alterar o nome dos autores
+     * @param equipa Equipa
+     */
+    private static void modifyNameAutores(Publicacao p, Equipa equipa){
+        Investigador i;
+        ArrayList<String> autores = p.getAutores();
+        ArrayList<String> modifiedAutores = new ArrayList<>();
+        for (String s: autores) {
+            String aux[] = s.split("#");
+            i = getInvestigador(aux[0], aux[1], equipa);
+            modifiedAutores.add(i.getNomePublic() + "#" + aux[1]);
+        }
+        p.setAutores(modifiedAutores);
+    }
 
-    //TODO add read protection, make sure, efetivou ou estudante, nome (sem numeros),etc
+
+    /**
+     * Metodo que le o ficheiro de texto dos investigadores e cria o ficheiro de objetos
+     * @param filename Nome do ficheiro de texto
+     * @param equipa Equipa
+     */
     private static void addMembersToObjFile(File filename, Equipa equipa) {
         String data;
         Investigador investigador;
@@ -149,6 +183,10 @@ class fileHandler {
         }
     }
 
+    /**
+     * Metodo que le o ficheiro de texto das publicacoes e cria o ficheiro de objetos
+     * @param filename Nome do ficheiro de texto
+     */
     public static void addPubToObjFile(File filename) {
         Publicacao pub;
         String line;
@@ -190,6 +228,13 @@ class fileHandler {
         }
     }
 
+    /**
+     * Returns um Ivestigador
+     * @param nome Nome do investigador
+     * @param grupo Grupo
+     * @param equipa Equipa
+     * @return Inevstigador
+     */
     private static Investigador getInvestigador(String nome, String grupo, Equipa equipa) {
         switch (grupo) {
             case "AC" -> {

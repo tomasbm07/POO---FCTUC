@@ -55,27 +55,11 @@ abstract class Investigador implements Serializable {
         return grupo;
     }
 
-    /**
-     * Returns numero de telefone de um Investigador Efetivo
-     * @return telefone
-     */
-    /*public String getTelefone(){
-        return null;
-    }*/
-
-    /**
-     * Returns gabinete de um Investigador Efetivo
-     * @return gabinete
-     */
-    /*public String getGabinete(){
-        return null;
-    }*/
-
-    /**
-     * Returns o nome de publicacao de um Investigador
-     * @return nome de Publicacao
-     */
     abstract String getNomePublic();
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
 
     public void addPub(Publicacao p){
         repo.add(p);
@@ -117,12 +101,11 @@ class Efetivo extends Investigador {
         return "Efetivo";
     }
 
-    //@Override
+
     public String getTelefone() {
         return telefone;
     }
 
-    //@Override
     public String getGabinete() {
         return gabinete;
     }
@@ -142,7 +125,6 @@ class Estudante extends Investigador {
 
     /**
      * Cria um investigador estudante
-     *
      * @param nome          nome do investigador
      * @param email         email do investigador
      * @param grupo         grupo a que pertence

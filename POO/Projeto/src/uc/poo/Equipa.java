@@ -156,16 +156,17 @@ class Equipa {
             x.showMembers();
     }
 
-    /**
-     * Returns //TODO
-     *
-     * @return ArrayList com os grupos da Equipa
-     */
+
     public ArrayList<Grupo> getGrupos() {
         return grupos;
     }
 
-    //Publicacoes dos ultimos n anos
+
+    /**
+     * Returns o numero de publicacoes dos ultimos n anos
+     * @param n ano
+     * @return count
+     */
     public int getNumPubs(int n) {
         int count = 0;
         for (Publicacao p : getPublicacoes()) {
@@ -178,6 +179,9 @@ class Equipa {
         return count;
     }
 
+    /**
+     * Prints o numero de cada tipo de publicacao
+     */
     public void showPubStats() {
         int artigoConf = 0, artigoRev = 0, capLivro = 0, livro = 0, livroArtigos = 0;
         for (Publicacao p : getPublicacoes()) {
@@ -197,6 +201,10 @@ class Equipa {
         System.out.println("Total de Publicacoes -> " + (artigoConf + artigoRev + capLivro + livro + livroArtigos));
     }
 
+    /**
+     * Returns um Array com todas as publicacoes do CISUC
+     * @return ArrayList
+     */
     private ArrayList<Publicacao> getPublicacoes() {
         ArrayList<Publicacao> pubs = new ArrayList<>();
         for (Grupo x : grupos) {
@@ -210,6 +218,11 @@ class Equipa {
         return pubs;
     }
 
+    /**
+     * Prints as publicacoes dos ultimos 5 anos de um grupo, organizadas
+     * @param equipa Equipa
+     * @param grupo Grupo
+     */
     public void showPubsGroupStats(Equipa equipa, String grupo) {
         ArrayList<Publicacao> pubs = new ArrayList<>();
         ArrayList<Publicacao> pubs5Anos = new ArrayList<>();
@@ -227,7 +240,6 @@ class Equipa {
             int ano = p.getAno();
             if (ano >= 2020 - 5 && ano <= 2020) { // 2020-5 <= ano < 2020
                 pubs5Anos.add(p);
-                //2015 - 2015
             }
         }
 
@@ -236,6 +248,11 @@ class Equipa {
         }
     }
 
+    /**
+     * Prints os membros de um grupo, orgazinados por tipo
+     * @param equipa Equipa
+     * @param grupo Grupo
+     */
     public void printGroupMembers(Equipa equipa, String grupo) {
         ArrayList<Investigador> membros;
         membros = getMembros(equipa, grupo);
@@ -245,6 +262,12 @@ class Equipa {
         }
     }
 
+    /**
+     * Prints as publicacoes de um investigador, organizadas
+     * @param equipa Equipa
+     * @param grupo Grupo
+     * @param nome Nome do Investigador
+     */
     public void getPubsInvestigador(Equipa equipa, String grupo, String nome) {
         ArrayList<Investigador> membros;
         ArrayList<Publicacao> pubs = new ArrayList<>();
@@ -263,6 +286,12 @@ class Equipa {
 
     }
 
+    /**
+     * Returns os membros de um grupo
+     * @param equipa Equipa
+     * @param grupo Grupo
+     * @return ArrayList
+     */
     private ArrayList<Investigador> getMembros(Equipa equipa, String grupo) {
         return switch (grupo) {
             case "AC" -> equipa.AC().getMembros();
@@ -275,18 +304,30 @@ class Equipa {
         };
     }
 
+    /**
+     * Returns um Array organizado por ano, tipo e fator de impacto
+     * @param pubs ArrayList de publicacoes
+     * @return ArrayList organizado por ano, tipo e fator de impacto
+     */
     private ArrayList<Publicacao> organizarPubs(ArrayList<Publicacao> pubs) {
         pubs.sort(Comparator.comparing(Publicacao::getAno).thenComparing(Publicacao::getTipo).thenComparing(Publicacao::fatorImpacto));
         return pubs;
     }
 
-    //TODO acabar esta parte
+
+    /**
+     * Prints o numero de publicacoes de cada grupo
+     * @param equipa Equipa
+     */
     public void showAllGroupsPubStats(Equipa equipa) {
         for (Grupo g : grupos) {
             System.out.println(g.getAcronimo() + " -> " + g.getNumPubs(5));
         }
     }
 
+    /**
+     * Cria um HashMap com as publicacoes todas, organizadas por ano, tipo e fator de impacto
+     */
     public void showGroupedPubs() {
         for (Grupo g : grupos) {
             LinkedHashMap<Integer, LinkedHashMap<String, LinkedHashMap<Character, ArrayList<Publicacao>>>> map = new LinkedHashMap<>();
@@ -322,6 +363,10 @@ class Equipa {
         }
     }
 
+    /**
+     * Prints o numero de publicacoes de cada ano, tipo e fator de impacto, de todos os grupos
+     * @param map LinkedHashMap com as publicacoes
+     */
     private void printHashMap(LinkedHashMap<Integer, LinkedHashMap<String, LinkedHashMap<Character, ArrayList<Publicacao>>>> map){
         int countAno = 0;
         int countFator = 0;
