@@ -24,7 +24,6 @@ class Equipa {
 
     /**
      * Returns o grupo AC do array de grupos
-     *
      * @return Grupo AC do array de grupos
      */
     public Grupo AC() {
@@ -37,7 +36,6 @@ class Equipa {
 
     /**
      * Returns o grupo CMS do array de grupos
-     *
      * @return Grupo CMS do array de grupos
      */
     public Grupo CMS() {
@@ -50,7 +48,6 @@ class Equipa {
 
     /**
      * Returns o grupo ECOS do array de grupos
-     *
      * @return Grupo ECOS do array de grupos
      */
     public Grupo ECOS() {
@@ -63,7 +60,6 @@ class Equipa {
 
     /**
      * Returns o grupo IS do array de grupos
-     *
      * @return Grupo IS do array de grupos
      */
     public Grupo IS() {
@@ -76,7 +72,6 @@ class Equipa {
 
     /**
      * Returns o grupo LCT do array de grupos
-     *
      * @return Grupo LCT do array de grupos
      */
     public Grupo LCT() {
@@ -89,7 +84,6 @@ class Equipa {
 
     /**
      * Returns o grupo SSE do array de grupos
-     *
      * @return Grupo SSE do array de grupos
      */
     public Grupo SSE() {

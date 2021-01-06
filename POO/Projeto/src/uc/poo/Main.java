@@ -9,7 +9,6 @@ public class Main {
         Equipa CISUC = new Equipa();
         fileHandler.readFiles(CISUC);
         menu(CISUC);
-
     }//main
 
 

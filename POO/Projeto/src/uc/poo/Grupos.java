@@ -31,7 +31,6 @@ abstract class Grupo {
 
     /**
      * Coloca um Investigador na lista de membros de um grupo
-     *
      * @param i Investigador
      */
     public void addInvestigador(Investigador i) {
@@ -46,7 +45,6 @@ abstract class Grupo {
 
     /**
      * Returns nome do grupo
-     *
      * @return nome
      */
     public String getNome() {
@@ -55,7 +53,6 @@ abstract class Grupo {
 
     /**
      * Returns acronimo do grupo
-     *
      * @return acronimo
      */
     public String getAcronimo() {
@@ -64,7 +61,6 @@ abstract class Grupo {
 
     /**
      * Returns Ivestestigador responsavel pelo grupo
-     *
      * @return Investigador
      */
     public Investigador getResponsavel() {
@@ -73,7 +69,6 @@ abstract class Grupo {
 
     /**
      * Returns o ArrayList com os membros do grupo
-     *
      * @return ArrayList
      */
     public ArrayList<Investigador> getMembros() {
@@ -91,7 +86,6 @@ abstract class Grupo {
 
     /**
      * Returns size do Array com os membros do grupo
-     *
      * @return membros.size()
      */
     public int getSize() {
@@ -100,7 +94,6 @@ abstract class Grupo {
 
     /**
      * Returns o numero de investigadores efetivos do grupo
-     *
      * @return count
      */
     public int getNumEfetivos() {
@@ -114,7 +107,6 @@ abstract class Grupo {
 
     /**
      * Returns o numero de investigadores estudantes do grupo
-     *
      * @return count
      */
     public int getNumEstudantes() {
@@ -128,7 +120,6 @@ abstract class Grupo {
 
     /**
      * Sets um Investigador como responsavel do grupo. Tem de ser um membro do grupo
-     *
      * @param i Investigador
      */
     public void setResponsavel(Investigador i) {
