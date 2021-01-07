@@ -14,6 +14,7 @@ public class Main {
 
     /**
      * Apresenta o menu da aplicacao
+     *
      * @param equipa Equipa
      */
     private static void menu(Equipa equipa) {
@@ -25,10 +26,12 @@ public class Main {
                 |         Tomás Mendes        |
                 -------------------------------
                 """);
+        String choiceStr;
         int choice = 1;
         while (choice != 0) {
             showOptions();
-            choice = sc.nextInt();
+            choiceStr = sc.nextLine();
+            choice = convertInt(choiceStr);
             switch (choice) {
                 case 0 -> System.out.println("Fechando Aplicaçao");
                 case 1 -> parte1(equipa);
@@ -39,6 +42,16 @@ public class Main {
                 default -> System.out.println("Erro: Valor Invalido");
             }
         }
+    }
+
+    private static int convertInt(String s) {
+        int i = -1;
+        try {
+            i = Integer.parseInt(s.trim()); //trim remove todos os espaços brancos
+        } catch (NumberFormatException e) {
+            System.out.println("Erro: nao foi possivel converter o valor em inteiro");
+        }
+        return i;
     }
 
     /**
@@ -59,10 +72,11 @@ public class Main {
 
     /**
      * Apresenta os parametos gerais da CISUC:
-     *                    -Total de membros
-     *                    -Numero de membros de cada categoria
-     *                    -Total de publicacoes dos ultimos 5 anos
-     *                    -Numero de publicacoes de cada tipo
+     * -Total de membros
+     * -Numero de membros de cada categoria
+     * -Total de publicacoes dos ultimos 5 anos
+     * -Numero de publicacoes de cada tipo
+     *
      * @param equipa equipa
      */
     private static void parte1(Equipa equipa) {
@@ -77,6 +91,7 @@ public class Main {
 
     /**
      * Lista as publicacoes de um grupo, organizadas por ano, tipo, e fator de impacto
+     *
      * @param equipa Equipa
      */
     private static void parte2(Equipa equipa) {
@@ -89,6 +104,7 @@ public class Main {
 
     /**
      * Lista os membros de um grupo de investigacao agrupados por categoria
+     *
      * @param equipa Equipa
      */
     private static void parte3(Equipa equipa) {
@@ -101,6 +117,7 @@ public class Main {
 
     /**
      * ista as publicacoes de um investigador, agrupadas por ano, tipo e fator de impacto
+     *
      * @param equipa Equipa
      */
     private static void parte4(Equipa equipa) {
@@ -116,10 +133,11 @@ public class Main {
 
     /**
      * Lista, de todos os grupos de investigacao,
-     *                     -Total de Membros
-     *                     -Numero de membros de cada categoria
-     *                     -Total de publicacoes dos ultimos 5 anos
-     *                     -Numero de publicacoes, dos ultimos 5 anos, agrupadas por ano, tipo e fator de impacto
+     * -Total de Membros
+     * -Numero de membros de cada categoria
+     * -Total de publicacoes dos ultimos 5 anos
+     * -Numero de publicacoes, dos ultimos 5 anos, agrupadas por ano, tipo e fator de impacto
+     *
      * @param equipa Equipa
      */
     private static void parte5(Equipa equipa) {

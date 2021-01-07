@@ -249,6 +249,10 @@ class Equipa {
      */
     public void printGroupMembers(Equipa equipa, String grupo) {
         ArrayList<Investigador> membros;
+        if (!(grupo.equals("AC") || grupo.equals("CMS")|| grupo.equals("ECOS")|| grupo.equals("IS")|| grupo.equals("LCT")|| grupo.equals("SSE"))){
+            System.out.println("Erro: Grupo Invalido!");
+            return;
+        }
         membros = getMembros(equipa, grupo);
         membros.sort((a, b) -> a.getType().compareTo(b.getType())); // Efetivos then Estudantes
         for (Investigador i : membros) {
@@ -265,7 +269,18 @@ class Equipa {
     public void getPubsInvestigador(Equipa equipa, String grupo, String nome) {
         ArrayList<Investigador> membros;
         ArrayList<Publicacao> pubs = new ArrayList<>();
+
+        if (!(grupo.equals("AC") || grupo.equals("CMS")|| grupo.equals("ECOS")|| grupo.equals("IS")|| grupo.equals("LCT")|| grupo.equals("SSE"))){
+            System.out.println("Erro: Grupo Invalido!");
+            return;
+        }
+
         membros = getMembros(equipa, grupo);
+
+        if (membros == null){
+            System.out.println("Erro: Nome Invalido!");
+            return;
+        }
 
         for (Investigador i : membros) {
             if (i.getNome().equals(nome)) {
